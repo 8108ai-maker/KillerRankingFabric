@@ -29,57 +29,41 @@ ROWS = 8
 
 
 # ----------------------------------------------------------------------------- trails
-def streak_row(w, h, *, core, edge, glow, head_len, body_len, thickness, taper, frag, rng, jag=0.0, tip_bias=0.3, dots=0):
-    """One trail row: a right-anchored streak. `frag` 0..1 breaks it into fragments (age)."""
+def band_row(w, h, *, bands, body_len, thickness, taper, age, rng, tip_bias=0.0, head_round=True, chunks=0):
+    """One clean trail row in the reference's style: a solid, right-anchored sweep made of hard-edged
+    colour bands (bands[0] = outermost rim ... bands[-1] = innermost core). No noise, no gaps.
+    `age` 0..1 thins the band and pulls its tail back; the last rows keep only the core plus a few
+    detached 2px chunks."""
     img = canvas(w, h)
     cy = h * (0.5 - tip_bias * 0.5)
     start = w - 1 - body_len
-    # organic wobble: smoothed random walk, scaled by jag
-    walk = np.cumsum(rng.normal(0, 1, w))
-    walk = np.convolve(walk, np.ones(9) / 9, mode="same")
-    walk = (walk - walk.mean()) / (walk.std() + 1e-6) * jag * 0.6
-    # fragmentation mask: random runs of gaps whose density grows with age
-    gap = np.zeros(w, dtype=bool)
-    x = int(start)
-    while x < w:
-        if rng.random() < frag * 0.35:
-            run = rng.integers(1, 3 + int(frag * 5))
-            gap[x : x + run] = True
-            x += run
-        x += 1
+    n = len(bands)
     for x in range(max(0, int(start)), w):
-        u = (x - start) / max(1, body_len)          # 0 at tail, 1 at head
-        # crescent-ish profile: thin tail, thick toward the head, slight thinning at the very head
-        prof = taper + (1 - taper) * (u ** 0.7) * (1 - 0.25 * max(0, (u - 0.85) / 0.15))
-        th = thickness * prof * (1 - frag * 0.45)
-        if gap[x] or th < 0.6:
+        u = (x - start) / max(1, body_len)
+        # thin tail -> thick body -> rounded head
+        prof = taper + (1 - taper) * (u ** 0.65)
+        if head_round and u > 0.9:
+            prof *= (1 - ((u - 0.9) / 0.1) ** 2) ** 0.5 * 0.9 + 0.1
+        th = thickness * prof
+        if th < 1:
             continue
-        top = cy - th / 2 + walk[x]
-        for y in range(int(top) - 1, int(top + th) + 2):
-            d = abs((y + 0.5) - (top + th / 2)) / max(th / 2, 0.5)
-            if d > 1.0:
-                continue
-            if d < 0.45 and u > 0.2:
-                col = core
-            elif d < 0.8:
-                col = edge
-            else:
-                col = glow
-            a = 1.0 if d < 0.8 else 0.6
-            a *= 0.45 + 0.55 * u
-            put(img, x, y, col, a)
-    # bright head streak on the newest rows
-    if frag < 0.5:
-        hx = w - 1
-        for i in range(head_len):
-            a = (1 - i / head_len) * (1 - frag * 2)
-            put(img, hx - i, int(cy + walk[hx - i]), shade(core, 1.3), a)
-            put(img, hx - i, int(cy + walk[hx - i]) - 1, core, a * 0.6)
-    # loose dots behind the stroke
-    for _ in range(dots):
-        x = rng.integers(int(start), w)
-        y = int(cy + walk[x] + rng.integers(-thickness, thickness + 1))
-        put(img, x, y, edge, rng.uniform(0.3, 0.8))
+        top = cy - th / 2
+        # stepped integer edges every few px so the stairs read as pixels
+        top = int(top) if (x // 3) % 2 == 0 else int(top + 0.5)
+        th_i = max(1, int(round(th)))
+        for y in range(top, top + th_i):
+            d = abs((y + 0.5) - (top + th_i / 2)) / (th_i / 2)    # 0 centre .. 1 edge
+            # band index: core when d small, rim when d near 1; older rows lose the inner bands
+            k = int((1 - d) * n)          # 0 = rim ... n-1 = core
+            k = min(n - 1, k)
+            col = bands[k]
+            put(img, x, y, col, 1.0)
+    # detached chunks at the tail for the oldest rows
+    for _ in range(chunks):
+        x = rng.integers(int(start) - 12, int(start) + 20)
+        y = int(cy + rng.integers(-thickness // 2, thickness // 2 + 1))
+        sz = 2 if rng.random() < 0.7 else 3
+        rect(img, x, y, sz, sz, bands[min(n - 1, 1)], 1.0)
     return img
 
 
@@ -92,77 +76,61 @@ def trail_strip(name, w, h, rows_fn):
 
 
 def build_trails():
-    # Rows are stretched over the whole ribbon width in game, so `thickness` is the fraction of
-    # the sweep that is painted: bold, nearly full-width on the newest rows, then breaking apart.
-    def rowset(name, w, h, core, edge, glow, *, th0, th_end, body0, body_end, head, taper, jag, tip_bias, seed, extra=None):
+    # Rows are stretched over the whole ribbon width in game, so `thickness` is the fraction of the
+    # sweep that is painted. Rows 0-7 = newest .. oldest: the band thins, the tail recedes, the core goes.
+    def rowset(name, w, h, bands, *, th0, th_end, body0, body_end, taper, tip_bias, seed, extra=None):
         def row(i):
             rng = np.random.default_rng(seed + i)
             age = i / (ROWS - 1)
-            img = streak_row(w, h, core=core, edge=edge, glow=glow, head_len=int(head * (1 - 0.5 * age)),
-                             body_len=int(body0 + (body_end - body0) * age), thickness=int(th0 + (th_end - th0) * age),
-                             taper=taper, frag=age * 0.85, rng=rng, jag=jag, tip_bias=tip_bias, dots=int(18 * age))
+            # older rows drop the inner (brightest) bands: rim stays, core disappears
+            keep = max(2, int(round(len(bands) * (1 - age * 0.6))))
+            use = bands[:keep] if keep < len(bands) else bands
+            img = band_row(w, h, bands=use, body_len=int(body0 + (body_end - body0) * age),
+                           thickness=int(th0 + (th_end - th0) * age), taper=taper, age=age, rng=rng,
+                           tip_bias=tip_bias, chunks=int(6 * max(0, age - 0.4)))
             if extra:
                 extra(img, rng, age)
             return img
         trail_strip(name, w, h, row)
 
-    # --- pawn 6 katana: white core, icy edge, thin bright highlight along the tip
-    def katana_extra(img, rng, age):
-        for x in range(30, 128):
-            if rng.random() < 0.7 - age * 0.5:
-                put(img, x, 7, (255, 255, 255, 255), 0.9)
-    rowset("trail_katana", 128, 32, (255, 255, 255, 255), (170, 222, 255, 245), (90, 160, 240, 150),
-           th0=24, th_end=9, body0=122, body_end=80, head=22, taper=0.22, jag=0.0, tip_bias=0.25, seed=100, extra=katana_extra)
-
-    # --- saw knife: blood red, serrated tip edge, drips
+    H = 32
+    # band order: rim -> ... -> core
+    rowset("trail_katana", 128, H, [(96, 150, 235, 255), (150, 205, 255, 255), (214, 238, 255, 255), (255, 255, 255, 255)],
+           th0=26, th_end=6, body0=124, body_end=70, taper=0.18, tip_bias=0.2, seed=100)
     def saw_extra(img, rng, age):
-        for x in range(16, 128, 4):
-            if rng.random() < 0.85 - age * 0.5:
-                put(img, x, 4, (255, 170, 150, 255), 0.95); put(img, x, 3, (255, 220, 210, 255), 0.7)
-        for _ in range(int(8 * age)):
-            x = rng.integers(30, 126)
-            for k in range(rng.integers(2, 7)):
-                put(img, x, 24 + k, (170, 14, 26, 255), 0.85 - k * 0.1)
-    rowset("trail_saw", 128, 32, (255, 120, 96, 255), (214, 28, 40, 245), (120, 8, 22, 150),
-           th0=26, th_end=10, body0=122, body_end=86, head=14, taper=0.35, jag=1.0, tip_bias=0.1, seed=200, extra=saw_extra)
+        # serrated outer edge: teeth sitting on the band's actual top edge, fewer as it ages
+        for x in range(12, 128, 4):
+            col = img[:, x, 3]
+            tops = np.nonzero(col)[0]
+            if len(tops) == 0 or rng.random() > 0.9 - age * 0.6:
+                continue
+            top = int(tops[0])
+            put(img, x, top - 1, (214, 28, 40, 255), 1.0); put(img, x, top - 2, (255, 120, 110, 255), 1.0)
+            put(img, x + 1, top - 1, (214, 28, 40, 255), 1.0)
+    rowset("trail_saw", 128, H, [(120, 8, 22, 255), (190, 24, 36, 255), (240, 80, 70, 255), (255, 190, 170, 255)],
+           th0=28, th_end=8, body0=124, body_end=80, taper=0.3, tip_bias=0.1, seed=200, extra=saw_extra)
+    rowset("trail_dagger", 128, H, [(150, 110, 230, 255), (205, 185, 255, 255), (255, 255, 255, 255)],
+           th0=16, th_end=4, body0=104, body_end=52, taper=0.12, tip_bias=0.3, seed=300)
+    rowset("trail_hatchet", 128, H, [(150, 36, 28, 255), (235, 110, 40, 255), (255, 185, 80, 255), (255, 236, 170, 255)],
+           th0=30, th_end=10, body0=116, body_end=74, taper=0.4, tip_bias=0.05, seed=400)
+    rowset("trail_bat", 128, H, [(196, 176, 136, 255), (232, 216, 178, 255), (250, 242, 220, 255), (255, 255, 250, 255)],
+           th0=30, th_end=10, body0=124, body_end=92, taper=0.45, tip_bias=0.0, seed=500)
+    rowset("trail_fist", 128, H, [(90, 170, 115, 255), (170, 230, 170, 255), (244, 255, 236, 255)],
+           th0=24, th_end=6, body0=80, body_end=36, taper=0.5, tip_bias=0.0, seed=600)
+    rowset("weapon_swing_strip", 128, H, [(190, 170, 130, 255), (235, 222, 185, 255), (255, 250, 236, 255), (255, 255, 255, 255)],
+           th0=26, th_end=8, body0=124, body_end=84, taper=0.3, tip_bias=0.2, seed=700)
 
-    # --- dagger / knife: silver with violet haze, narrower but still bold
-    rowset("trail_dagger", 128, 32, (255, 255, 255, 255), (228, 214, 255, 235), (150, 110, 230, 130),
-           th0=16, th_end=5, body0=100, body_end=56, head=18, taper=0.15, jag=0.0, tip_bias=0.35, seed=300)
-
-    # --- hatchet: amber over dark red, chunky, embers
-    def hatchet_extra(img, rng, age):
-        for _ in range(int(8 + 14 * age)):
-            put(img, rng.integers(30, 128), rng.integers(2, 30), (255, 190, 90, 255), rng.uniform(0.5, 1.0))
-    rowset("trail_hatchet", 128, 32, (255, 226, 140, 255), (240, 120, 40, 245), (150, 36, 28, 150),
-           th0=28, th_end=12, body0=112, body_end=78, head=12, taper=0.45, jag=0.9, tip_bias=0.05, seed=400, extra=hatchet_extra)
-
-    # --- bat: cream dust, widest, wire sparks
-    def bat_extra(img, rng, age):
-        for _ in range(int(6 + 8 * age)):
-            put(img, rng.integers(50, 128), rng.integers(2, 30), (255, 255, 255, 255), rng.uniform(0.6, 1.0))
-    rowset("trail_bat", 128, 32, (255, 250, 232, 240), (240, 224, 186, 215), (200, 180, 140, 120),
-           th0=30, th_end=12, body0=124, body_end=96, head=10, taper=0.5, jag=1.3, tip_bias=0.0, seed=500, extra=bat_extra)
-
-    # --- fist: short cream-green puff
-    rowset("trail_fist", 128, 32, (244, 255, 236, 220), (178, 236, 178, 185), (90, 170, 115, 100),
-           th0=24, th_end=8, body0=76, body_end=40, head=8, taper=0.6, jag=1.5, tip_bias=0.0, seed=600)
-
-    # --- generic fallback
-    rowset("weapon_swing_strip", 128, 32, (255, 252, 240, 255), (242, 230, 192, 225), (190, 170, 130, 115),
-           th0=26, th_end=10, body0=122, body_end=84, head=14, taper=0.3, jag=0.6, tip_bias=0.2, seed=700)
-
-    # --- neungsa katana: violet, rows 0..3 grow with stroke length, rows 4..7 fade
+    # neungsa katana: violet; rows 0..3 grow with stroke length, 4..7 fade
     def neungsa(i):
         rng = np.random.default_rng(800 + i)
-        core, edge, glow = (248, 236, 255, 255), (184, 112, 255, 245), (100, 40, 200, 160)
+        bands = [(100, 40, 200, 255), (160, 96, 250, 255), (210, 170, 255, 255), (250, 240, 255, 255)]
         if i < 4:
             grow = (i + 1) / 4
-            return streak_row(256, 64, core=core, edge=edge, glow=glow, head_len=40, body_len=int(60 + 190 * grow),
-                              thickness=48, taper=0.1, frag=0.0, rng=rng, jag=0.0, tip_bias=0.3, dots=0)
+            return band_row(256, 64, bands=bands, body_len=int(60 + 190 * grow), thickness=50, taper=0.1, age=0, rng=rng, tip_bias=0.25)
         age = (i - 4) / 3
-        return streak_row(256, 64, core=core, edge=edge, glow=glow, head_len=int(34 - 24 * age), body_len=int(250 - 120 * age),
-                          thickness=int(48 - 30 * age) + 2, taper=0.1, frag=0.3 + age * 0.7, rng=rng, jag=0.0, tip_bias=0.3, dots=int(34 * age))
+        keep = max(2, int(round(4 * (1 - age * 0.6))))
+        return band_row(256, 64, bands=bands[:keep], body_len=int(250 - 110 * age), thickness=int(50 - 36 * age), taper=0.1,
+                        age=age, rng=rng, tip_bias=0.25, chunks=int(8 * age))
     trail_strip("neungsa_swing_strip", 256, 64, neungsa)
 
 
@@ -175,7 +143,7 @@ def hit_sheet(name, frame_fn, size=32, frames=8, cols=4):
     print(f"  {name}: {sheet.shape[1]}x{sheet.shape[0]} ({frames} frames)")
 
 
-def _crescent(img, cx, cy, L, bend, thick, color, alpha, rng, jag=0.0, frag=0.0, gap_mask=None):
+def _crescent(img, cx, cy, L, bend, thick, color, alpha, rng, jag=0.0, frag=0.0, gap_mask=None):  # noqa: keep signature
     """Quadratic crescent from lower-left to upper-right, thick in the middle, thin at the ends."""
     x0, y0 = cx - L, cy + L
     x1, y1 = cx + L, cy - L
@@ -194,35 +162,39 @@ def _crescent(img, cx, cy, L, bend, thick, color, alpha, rng, jag=0.0, frag=0.0,
                 put(img, int(x) + ox, int(y) + oy, color, alpha)
 
 
-def slash_frame(i, n, *, core, edge, spray, rng_seed, width=1, jag=0.0, double=False, spray_n=10):
+def slash_frame(i, n, *, bands, spray, rng_seed, width=4, double=False, spray_n=10):
+    """Bold banded crescent (rim .. core), whole by frame 1, thinning to the rim by the end, with 2px shards."""
     img = canvas(32, 32)
     rng = np.random.default_rng(rng_seed + i)
     t = i / (n - 1)
     cx = cy = 16
     L = 15
-    # cut visibility: appears whole by frame 1, dissolves after 0.4
-    cut_alpha = 1.0 if t <= 0.4 else max(0, 1 - (t - 0.4) / 0.45)
-    frag = 0 if t < 0.35 else min(1, (t - 0.35) / 0.4)
-    gap = None
-    if frag > 0:
-        gap = rng.random(64) < frag * 0.7
+    nb = len(bands)
+    keep = nb if t < 0.4 else max(1, int(round(nb * (1 - (t - 0.4) / 0.6))))
+    thick = width if t < 0.45 else max(1, width * (1 - (t - 0.45) / 0.6))
     if t == 0:
-        # first frame: flash + short seed cut
         disc(img, cx, cy, 4, (255, 255, 255, 255), 1.0)
-        _crescent(img, cx, cy, 6, 2, width + 1, core, 1.0, rng)
-    else:
-        if cut_alpha > 0:
-            _crescent(img, cx, cy, L, 4, width + 3, edge, 0.45 * cut_alpha, rng, jag, frag, gap)
-            _crescent(img, cx, cy, L, 4, width + 1, core, cut_alpha, rng, jag, frag, gap)
-            if double:
-                _crescent(img, cx - 4, cy + 2, L - 3, 3, width + 1, edge, 0.7 * cut_alpha, rng, jag, frag, gap)
+        for k in range(nb):
+            _crescent(img, cx, cy, 7, 2, max(1, int(width - k * (width / nb))), bands[k], 1.0, rng)
+    elif t < 0.95:
+        for k in range(keep):
+            w = max(1, int(round(thick * (1 - k / nb))))
+            _crescent(img, cx, cy, L, 5, w, bands[k], 1.0, rng)
+        if double:
+            for k in range(max(1, keep - 1)):
+                w = max(1, int(round(thick * 0.7 * (1 - k / nb))))
+                _crescent(img, cx - 5, cy + 3, L - 4, 4, w, bands[k], 1.0, rng)
         if t < 0.3:
-            disc(img, cx, cy, 3 - t * 8, (255, 255, 255, 255), 1 - t / 0.3)
-    # spray sparks outward along the cut normal, flying further with time
+            disc(img, cx, cy, 3 - t * 8, (255, 255, 255, 255), 1.0)
+    # 2px square shards flying off along the cut normal
     k = int(spray_n * min(1, 0.4 + t))
     for bias in (-math.pi / 4, 3 * math.pi / 4):
-        sparks(img, cx, cy, k, 2 + t * 11, 5 + t * 14, spray, rng, length=2 if t < 0.5 else 1,
-               alpha_mul=(1 - t) * 0.95, angle_bias=bias, spread=0.9)
+        for _ in range(k):
+            a = bias + rng.uniform(-0.9, 0.9)
+            r = rng.uniform(3 + t * 10, 6 + t * 15)
+            x, y = int(cx + math.cos(a) * r), int(cy + math.sin(a) * r)
+            sz = 2 if rng.random() < 0.6 else 1
+            rect(img, x, y, sz, sz, spray if rng.random() < 0.6 else bands[-1], 1.0 if t < 0.7 else 0.7)
     return img
 
 
@@ -261,13 +233,13 @@ def burst_frame(i, n, *, core, ring, dust, rng_seed, rays=8, ring_width=2, dust_
 
 
 def build_hits():
-    hit_sheet("hit_blade", lambda i, n: slash_frame(i, n, core=(255, 255, 255, 255), edge=(170, 220, 255, 255), spray=(230, 245, 255, 255), rng_seed=1000, width=1))
-    hit_sheet("hit_saw", lambda i, n: slash_frame(i, n, core=(255, 120, 90, 255), edge=(170, 20, 30, 255), spray=(200, 30, 40, 255), rng_seed=1100, width=1, jag=0.9, spray_n=16))
-    hit_sheet("hit_pierce", lambda i, n: burst_frame(i, n, core=(255, 255, 255, 255), ring=(210, 200, 255, 255), dust=(230, 220, 255, 255), rng_seed=1200, rays=4, ring_width=1, dust_n=6))
-    hit_sheet("hit_blunt", lambda i, n: burst_frame(i, n, core=(255, 250, 220, 255), ring=(240, 225, 180, 255), dust=(200, 185, 150, 255), rng_seed=1300, rays=8, ring_width=2, dust_n=16))
-    hit_sheet("hit_fist", lambda i, n: burst_frame(i, n, core=(240, 255, 230, 255), ring=(170, 230, 170, 255), dust=(220, 240, 215, 255), rng_seed=1400, rays=6, ring_width=2, dust_n=8))
-    hit_sheet("hit_knuckle", lambda i, n: burst_frame(i, n, core=(255, 240, 200, 255), ring=(255, 190, 90, 255), dust=(230, 200, 160, 255), rng_seed=1500, rays=8, ring_width=3, dust_n=14))
-    hit_sheet("hit_hatchet", lambda i, n: slash_frame(i, n, core=(255, 225, 150, 255), edge=(220, 90, 40, 255), spray=(180, 40, 30, 255), rng_seed=1600, width=2, jag=0.4, double=True, spray_n=14))
+    hit_sheet("hit_blade", lambda i, n: slash_frame(i, n, bands=[(96, 150, 235, 255), (170, 222, 255, 255), (255, 255, 255, 255)], spray=(230, 245, 255, 255), rng_seed=1000, width=5))
+    hit_sheet("hit_saw", lambda i, n: slash_frame(i, n, bands=[(120, 8, 22, 255), (214, 28, 40, 255), (255, 150, 130, 255)], spray=(200, 30, 40, 255), rng_seed=1100, width=6, spray_n=16))
+    hit_sheet("hit_pierce", lambda i, n: burst_frame(i, n, core=(255, 255, 255, 255), ring=(210, 200, 255, 255), dust=(230, 220, 255, 255), rng_seed=1200, rays=4, ring_width=2, dust_n=8))
+    hit_sheet("hit_blunt", lambda i, n: burst_frame(i, n, core=(255, 250, 220, 255), ring=(240, 225, 180, 255), dust=(200, 185, 150, 255), rng_seed=1300, rays=8, ring_width=3, dust_n=18))
+    hit_sheet("hit_fist", lambda i, n: burst_frame(i, n, core=(240, 255, 230, 255), ring=(170, 230, 170, 255), dust=(220, 240, 215, 255), rng_seed=1400, rays=6, ring_width=3, dust_n=10))
+    hit_sheet("hit_knuckle", lambda i, n: burst_frame(i, n, core=(255, 240, 200, 255), ring=(255, 190, 90, 255), dust=(230, 200, 160, 255), rng_seed=1500, rays=8, ring_width=4, dust_n=16))
+    hit_sheet("hit_hatchet", lambda i, n: slash_frame(i, n, bands=[(150, 36, 28, 255), (235, 110, 40, 255), (255, 236, 170, 255)], spray=(180, 40, 30, 255), rng_seed=1600, width=6, double=True, spray_n=14))
     # a lethal overlay: big white cross flash + red bloom, played on killing blows
     def lethal(i, n):
         img = canvas(32, 32); t = i / (n - 1); cx = cy = 16
