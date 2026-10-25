@@ -143,7 +143,7 @@ class NightBatAnimationTest {
                 // (The player clamps read-back rotations to (-pi, pi], so compare the wrapped difference.)
                 for (var pair : new Vec3f[][] {{arm, previousArm}, {grip, previousGrip}})
                     for (float d : new float[] {pair[0].getX() - pair[1].getX(), pair[0].getY() - pair[1].getY(), pair[0].getZ() - pair[1].getZ()})
-                        worstJump = Math.max(worstJump, Math.abs(Math.atan2(Math.sin(d), Math.cos(d))));
+                        worstJump = Math.max(worstJump, (float) Math.abs(Math.atan2(Math.sin(d), Math.cos(d))));
             }
             previousArm = arm; previousGrip = grip;
             if (animation.get3DTransform("nightBatTrail", TransformType.POSITION, 0, Vec3f.ZERO).getY() > .25) gate.add(tick);
