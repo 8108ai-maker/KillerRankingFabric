@@ -1,0 +1,45 @@
+{
+  "attributes": {
+    "range_bonus": 0,
+    "category": "mace",
+    "two_handed": false,
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 130,
+        "upswing": 0.5,
+        "animation": "killerranking:night_bat_forehand",
+        "swing_sound": {
+          "id": "killerranking:swing.bat",
+          "volume": 0.85,
+          "pitch": 1.0
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 130,
+        "upswing": 0.5,
+        "animation": "killerranking:night_bat_backhand",
+        "swing_sound": {
+          "id": "killerranking:swing.bat",
+          "volume": 0.85,
+          "pitch": 1.0
+        }
+      },
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 70,
+        "upswing": 0.5,
+        "animation": "killerranking:night_bat_slam",
+        "swing_sound": {
+          "id": "killerranking:swing.bat",
+          "volume": 0.85,
+          "pitch": 0.9
+        }
+      }
+    ]
+  }
+}

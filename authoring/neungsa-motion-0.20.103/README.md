@@ -1,0 +1,1 @@
+Normal katana grip: blade direction in forearm space has negative Z, exiting the thumb/forward side. The complete arm grip is authored consistently for idle, draw, three cuts, parry and insertion; blade trajectories and hilt positions are preserved. Drawn stance points the blade upward and forward. Rigid detached Minecraft limbs keep their native sizes.

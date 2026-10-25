@@ -1,0 +1,56 @@
+{
+  "attributes": {
+    "range_bonus": -0.5,
+    "category": "fist",
+    "two_handed": false,
+    "pose": "killerranking:tteokbal_fist_guard",
+    "attacks": [
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1,
+        "angle": 60,
+        "upswing": 0.44,
+        "animation": "killerranking:tteokbal_fist_right",
+        "swing_sound": {
+          "id": "killerranking:swing.fist",
+          "volume": 0.6,
+          "pitch": 1.2
+        },
+        "conditions": [
+          "MAIN_HAND_ONLY"
+        ]
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1,
+        "angle": 60,
+        "upswing": 0.62,
+        "animation": "killerranking:tteokbal_fist_cross",
+        "swing_sound": {
+          "id": "killerranking:swing.fist",
+          "volume": 0.6,
+          "pitch": 1.2
+        },
+        "conditions": [
+          "DUAL_WIELDING_ANY",
+          "OFF_HAND_ONLY"
+        ]
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1,
+        "angle": 60,
+        "upswing": 0.62,
+        "animation": "killerranking:tteokbal_fist_left",
+        "swing_sound": {
+          "id": "killerranking:swing.fist",
+          "volume": 0.6,
+          "pitch": 1.2
+        },
+        "conditions": [
+          "NOT_DUAL_WIELDING"
+        ]
+      }
+    ]
+  }
+}

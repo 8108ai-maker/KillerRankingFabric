@@ -1,0 +1,1 @@
+Runtime clips: draw_* for the first cut only, three continuously drawn cuts, drawn_guard between cuts, and sheathe after the combo stops. All clips retain native limb sizes and a locked cutting grip. Insertion aligns outside the scabbard before translating along its axis.

@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "java_block",
+    "box_uv": false,
+    "name": "neungsa_katana_saya"
+  },
+  "name": "neungsa_katana_saya",
+  "parent": "",
+  "java_block_version": "26.3",
+  "credit": "Single slim black saya, compact gold mouth and closed tip; no exposed blade in the idle stance.",
+  "ambientocclusion": true,
+  "front_gui_light": false,
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "multi_file_ruleset": "",
+  "variable_placeholder_buttons": [],
+  "unhandled_root_fields": {},
+  "activity_tracker": 0,
+  "display_anim_variants": {},
+  "eme_export": {},
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "cube",
+      "box_uv": false,
+      "render_order": "default",
+      "rescale": false,
+      "locked": false,
+      "shade_direction_override": "",
+      "light_emission": 0,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        6.98,
+        10.2,
+        7.24
+      ],
+      "to": [
+        9.02,
+        31.6,
+        8.76
+      ],
+      "autouv": 0,
+      "color": 5,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "6efc25c2-5df1-18df-9a09-bc1ebd5eb9df"
+    },
+    {
+      "name": "cube",
+      "box_uv": false,
+      "render_order": "default",
+      "rescale": false,
+      "locked": false,
+      "shade_direction_override": "",
+      "light_emission": 0,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        6.94,
+        10.15,
+        7.2
+      ],
+      "to": [
+        9.06,
+        10.6,
+        8.8
+      ],
+      "autouv": 0,
+      "color": 3,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1
+        }
+      },
+      "type": "cube",
+      "uuid": "861e8542-34ba-da84-43d7-240f80e302dd"
+    },
+    {
+      "name": "cube",
+      "box_uv": false,
+      "render_order": "default",
+      "rescale": false,
+      "locked": false,
+      "shade_direction_override": "",
+      "light_emission": 0,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        7.02,
+        31.5,
+        7.28
+      ],
+      "to": [
+        8.98,
+        31.9,
+        8.72
+      ],
+      "autouv": 0,
+      "color": 4,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 1
+        }
+      },
+      "type": "cube",
+      "uuid": "cde7ba89-00a9-ea47-0285-4627b63e10fe"
+    }
+  ],
+  "groups": [],
+  "outliner": [
+    "6efc25c2-5df1-18df-9a09-bc1ebd5eb9df",
+    "861e8542-34ba-da84-43d7-240f80e302dd",
+    "cde7ba89-00a9-ea47-0285-4627b63e10fe"
+  ],
+  "textures": [
+    {
+      "name": "neungsa_katana_grip.png",
+      "path": "C:\\Users\\홍진욱\\Documents\\Codex\\2026-09-25\\1-1-x20-origin-2-2\\work\\KillerRankingFabric\\src\\main\\resources\\assets\\killerranking\\textures\\item\\neungsa_katana_grip.png",
+      "folder": "item",
+      "namespace": "killerranking",
+      "id": "black",
+      "group": "",
+      "scope": 0,
+      "width": 0,
+      "height": 0,
+      "uv_width": 16,
+      "uv_height": 16,
+      "particle": true,
+      "use_as_default": false,
+      "layers_enabled": false,
+      "sync_to_project": "",
+      "file_format": "png",
+      "render_mode": "default",
+      "render_sides": "auto",
+      "wrap_mode": "limited",
+      "pbr_channel": "color",
+      "fps": 7,
+      "force_translucent": false,
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false,
+      "downscale_target_width": 0,
+      "downscale_target_height": 0,
+      "downscale_filter": "",
+      "visible": true,
+      "internal": true,
+      "saved": false,
+      "uuid": "dbbd7a32-265d-5462-5ac0-58f1e38acaf7",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWklEQVR4nO2SMQ7AIAwDqbf0CXTo/z9IRhBIRmJoBmet57tItnLV5+3urUQxu8sXg0ie4kzEQBXJQBXJQBWPCp7YAapIBqpIBqq4K1hiwHXA/0dCZsA1oiqSGWe9VVdoc+ZfAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "neungsa_katana_gold.png",
+      "path": "C:\\Users\\홍진욱\\Documents\\Codex\\2026-09-25\\1-1-x20-origin-2-2\\work\\KillerRankingFabric\\src\\main\\resources\\assets\\killerranking\\textures\\item\\neungsa_katana_gold.png",
+      "folder": "item",
+      "namespace": "killerranking",
+      "id": "gold",
+      "group": "",
+      "scope": 0,
+      "width": 0,
+      "height": 0,
+      "uv_width": 16,
+      "uv_height": 16,
+      "particle": false,
+      "use_as_default": false,
+      "layers_enabled": false,
+      "sync_to_project": "",
+      "file_format": "png",
+      "render_mode": "default",
+      "render_sides": "auto",
+      "wrap_mode": "limited",
+      "pbr_channel": "color",
+      "fps": 7,
+      "force_translucent": false,
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false,
+      "downscale_target_width": 0,
+      "downscale_target_height": 0,
+      "downscale_filter": "",
+      "visible": true,
+      "internal": true,
+      "saved": false,
+      "uuid": "34362156-6dbe-6653-a941-172316ea9347",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXElEQVR4nGPcNcPtPwMFgImBQsBy9tJTDEFjPWkGbOLY1DChC4IAPs3oapjI1QgDTORqRDEAGyDWVUzkaoSpYSJXIwwwURKAYAPOUhCAYAMYyNQIU8NErsZhlJAAebtQPTNG+44AAAAASUVORK5CYII="
+    }
+  ],
+  "tint_color": [
+    1,
+    0.705,
+    0.294
+  ]
+}

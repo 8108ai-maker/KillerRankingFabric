@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "killerranking",
+	"version": "${version}",
+	"name": "Killer Ranking",
+	"description": "Server-authoritative missions, traits, parry, and survival combat for Fabric 1.21.1.",
+	"authors": [
+		"Server owner"
+	],
+	"contact": {
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.killerranking.KillerRankingMod"
+		],
+		"client": [
+			"dev.killerranking.client.KillerRankingClient"
+		]
+	},
+	"mixins": [
+		"killerranking.mixins.json",
+		{
+			"config": "killerranking.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"playeranimator": ">=2.0.4",
+		"geckolib": ">=4.9.3"
+	}
+}

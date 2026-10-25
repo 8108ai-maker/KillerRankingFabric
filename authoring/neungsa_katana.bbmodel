@@ -1,0 +1,823 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "java_block",
+    "box_uv": false,
+    "name": "neungsa_katana"
+  },
+  "name": "neungsa_katana",
+  "parent": "",
+  "java_block_version": "26.3",
+  "credit": "Remade straight black Neungsa katana, native palm pivot at (8,8,8), compact gold fittings and flat pixel blade.",
+  "ambientocclusion": true,
+  "front_gui_light": false,
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "multi_file_ruleset": "",
+  "variable_placeholder_buttons": [],
+  "unhandled_root_fields": {},
+  "activity_tracker": 0,
+  "display_anim_variants": {},
+  "eme_export": {},
+  "overrides": [
+    {
+      "predicate": {
+        "killerranking:sheathed": 1
+      },
+      "model": "killerranking:item/neungsa_katana_sheathed"
+    }
+  ],
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "cube",
+      "box_uv": false,
+      "render_order": "default",
+      "rescale": false,
+      "locked": false,
+      "shade_direction_override": "",
+      "light_emission": 0,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        7.35,
+        3,
+        7.45
+      ],
+      "to": [
+        8.65,
+        9.6,
+        8.55
+      ],
+      "autouv": 0,
+      "color": 5,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 2
+        }
+      },
+      "type": "cube",
+      "uuid": "e7396cad-22f4-ba25-17de-c87c63f1cd96"
+    },
+    {
+      "name": "cube",
+      "box_uv": false,
+      "render_order": "default",
+      "rescale": false,
+      "locked": false,
+      "shade_direction_override": "",
+      "light_emission": 0,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        7.25,
+        2.7,
+        7.35
+      ],
+      "to": [
+        8.75,
+        3.2,
+        8.65
+      ],
+      "autouv": 0,
+      "color": 9,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "56dfee37-26e0-75f5-1824-f38bebc79764"
+    },
+    {
+      "name": "cube",
+      "box_uv": false,
+      "render_order": "default",
+      "rescale": false,
+      "locked": false,
+      "shade_direction_override": "",
+      "light_emission": 0,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        7.3,
+        9.35,
+        7.4
+      ],
+      "to": [
+        8.7,
+        9.8,
+        8.6
+      ],
+      "autouv": 0,
+      "color": 6,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "1f37d721-2412-f07d-0c94-d4be04788928"
+    },
+    {
+      "name": "cube",
+      "box_uv": false,
+      "render_order": "default",
+      "rescale": false,
+      "locked": false,
+      "shade_direction_override": "",
+      "light_emission": 0,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        6.7,
+        9.8,
+        6.9
+      ],
+      "to": [
+        9.3,
+        10.1,
+        9.1
+      ],
+      "autouv": 0,
+      "color": 4,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "ad85b061-9556-b401-6b02-e45425d9e87a"
+    },
+    {
+      "name": "cube",
+      "box_uv": false,
+      "render_order": "default",
+      "rescale": false,
+      "locked": false,
+      "shade_direction_override": "",
+      "light_emission": 0,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        7.5,
+        10.1,
+        7.6
+      ],
+      "to": [
+        8.5,
+        10.5,
+        8.4
+      ],
+      "autouv": 0,
+      "color": 7,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "uuid": "1b0d1c41-5749-9be5-a736-e68174f9de6f"
+    },
+    {
+      "name": "cube",
+      "box_uv": false,
+      "render_order": "default",
+      "rescale": false,
+      "locked": false,
+      "shade_direction_override": "",
+      "light_emission": 0,
+      "export": true,
+      "scope": 0,
+      "allow_mirror_modeling": true,
+      "from": [
+        7.43,
+        10.4,
+        7.992
+      ],
+      "to": [
+        8.57,
+        31.9,
+        8.008
+      ],
+      "autouv": 0,
+      "color": 9,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": 3
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 3
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      },
+      "type": "cube",
+      "uuid": "519427be-cebf-e466-11d8-9dc1c77d628a"
+    }
+  ],
+  "groups": [],
+  "outliner": [
+    "e7396cad-22f4-ba25-17de-c87c63f1cd96",
+    "56dfee37-26e0-75f5-1824-f38bebc79764",
+    "1f37d721-2412-f07d-0c94-d4be04788928",
+    "ad85b061-9556-b401-6b02-e45425d9e87a",
+    "1b0d1c41-5749-9be5-a736-e68174f9de6f",
+    "519427be-cebf-e466-11d8-9dc1c77d628a"
+  ],
+  "textures": [
+    {
+      "name": "neungsa_katana_gold.png",
+      "path": "C:\\Users\\홍진욱\\Documents\\Codex\\2026-09-25\\1-1-x20-origin-2-2\\work\\KillerRankingFabric\\src\\main\\resources\\assets\\killerranking\\textures\\item\\neungsa_katana_gold.png",
+      "folder": "item",
+      "namespace": "killerranking",
+      "id": "steel",
+      "group": "",
+      "scope": 0,
+      "width": 0,
+      "height": 0,
+      "uv_width": 16,
+      "uv_height": 16,
+      "particle": false,
+      "use_as_default": false,
+      "layers_enabled": false,
+      "sync_to_project": "",
+      "file_format": "png",
+      "render_mode": "default",
+      "render_sides": "auto",
+      "wrap_mode": "limited",
+      "pbr_channel": "color",
+      "fps": 7,
+      "force_translucent": false,
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false,
+      "downscale_target_width": 0,
+      "downscale_target_height": 0,
+      "downscale_filter": "",
+      "visible": true,
+      "internal": true,
+      "saved": false,
+      "uuid": "360cefd7-11f5-3d02-e22c-9d0646f625b6",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXElEQVR4nGPcNcPtPwMFgImBQsBy9tJTDEFjPWkGbOLY1DChC4IAPs3oapjI1QgDTORqRDEAGyDWVUzkaoSpYSJXIwwwURKAYAPOUhCAYAMYyNQIU8NErsZhlJAAebtQPTNG+44AAAAASUVORK5CYII="
+    },
+    {
+      "name": "neungsa_katana_grip.png",
+      "path": "C:\\Users\\홍진욱\\Documents\\Codex\\2026-09-25\\1-1-x20-origin-2-2\\work\\KillerRankingFabric\\src\\main\\resources\\assets\\killerranking\\textures\\item\\neungsa_katana_grip.png",
+      "folder": "item",
+      "namespace": "killerranking",
+      "id": "black",
+      "group": "",
+      "scope": 0,
+      "width": 0,
+      "height": 0,
+      "uv_width": 16,
+      "uv_height": 16,
+      "particle": false,
+      "use_as_default": false,
+      "layers_enabled": false,
+      "sync_to_project": "",
+      "file_format": "png",
+      "render_mode": "default",
+      "render_sides": "auto",
+      "wrap_mode": "limited",
+      "pbr_channel": "color",
+      "fps": 7,
+      "force_translucent": false,
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false,
+      "downscale_target_width": 0,
+      "downscale_target_height": 0,
+      "downscale_filter": "",
+      "visible": true,
+      "internal": true,
+      "saved": false,
+      "uuid": "9adb7ce4-ef10-6326-3a64-0e00f12092e8",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWklEQVR4nO2SMQ7AIAwDqbf0CXTo/z9IRhBIRmJoBmet57tItnLV5+3urUQxu8sXg0ie4kzEQBXJQBXJQBWPCp7YAapIBqpIBqq4K1hiwHXA/0dCZsA1oiqSGWe9VVdoc+ZfAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "neungsa_katana_wrap.png",
+      "path": "C:\\Users\\홍진욱\\Documents\\Codex\\2026-09-25\\1-1-x20-origin-2-2\\work\\KillerRankingFabric\\src\\main\\resources\\assets\\killerranking\\textures\\item\\neungsa_katana_wrap.png",
+      "folder": "item",
+      "namespace": "killerranking",
+      "id": "wrap",
+      "group": "",
+      "scope": 0,
+      "width": 0,
+      "height": 0,
+      "uv_width": 16,
+      "uv_height": 16,
+      "particle": false,
+      "use_as_default": false,
+      "layers_enabled": false,
+      "sync_to_project": "",
+      "file_format": "png",
+      "render_mode": "default",
+      "render_sides": "auto",
+      "wrap_mode": "limited",
+      "pbr_channel": "color",
+      "fps": 7,
+      "force_translucent": false,
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false,
+      "downscale_target_width": 0,
+      "downscale_target_height": 0,
+      "downscale_filter": "",
+      "visible": true,
+      "internal": true,
+      "saved": false,
+      "uuid": "d78815cf-6ce2-9268-c0d4-beca568428a9",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAW0lEQVR4nGPU0TX6/+nTRwZ8gI+PnwGXGiZ8mkEaQQCfGiZyNcLUMJGrEaaGiVyNKF74REE4MJGrEaaGiVyNMDVM5GqEe4GPggAEG/BpNCExURKA4EAkVyNMDQD4WFV/4ujZswAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "neungsa_katana_blade.png",
+      "path": "C:\\Users\\홍진욱\\Documents\\Codex\\2026-09-25\\1-1-x20-origin-2-2\\work\\KillerRankingFabric\\src\\main\\resources\\assets\\killerranking\\textures\\item\\neungsa_katana_blade.png",
+      "folder": "item",
+      "namespace": "killerranking",
+      "id": "blade",
+      "group": "",
+      "scope": 0,
+      "width": 0,
+      "height": 0,
+      "uv_width": 16,
+      "uv_height": 16,
+      "particle": true,
+      "use_as_default": false,
+      "layers_enabled": false,
+      "sync_to_project": "",
+      "file_format": "png",
+      "render_mode": "default",
+      "render_sides": "auto",
+      "wrap_mode": "limited",
+      "pbr_channel": "color",
+      "fps": 7,
+      "force_translucent": false,
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false,
+      "downscale_target_width": 0,
+      "downscale_target_height": 0,
+      "downscale_filter": "",
+      "visible": true,
+      "internal": true,
+      "saved": false,
+      "uuid": "84c83770-12a2-3873-3f68-cbfc2f85f318",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAAAtElEQVR4nO2QoQ7CQBBEJ/MpJ1CsQZAmiAsChUei+AhcDf9dwl3SAKXt3a1BzJhV72XzAMfu/WNgK3y53obXZQscT+cENwniG1wtiF9wlcB23QQuFtgMXCSwBXhVYCvwosAK4FmBFcI/BfvDsRieCMJmWwV/CEIDPApCI5wEwQGPH3hGFy1BGuEcJYAaQA2gBmqQRzhHCaAGUAOogRrkEc5RAqgB1ABqoAZ5hHOUAGqAP2jwBOieG7uB41/sAAAAAElFTkSuQmCC"
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "thirdperson_lefthand": {
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        20,
+        7
+      ],
+      "translation": [
+        1.25,
+        -0.8,
+        -1.4
+      ],
+      "scale": [
+        0.69,
+        0.69,
+        0.69
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -20,
+        -7
+      ],
+      "translation": [
+        1.25,
+        -0.8,
+        -1.4
+      ],
+      "scale": [
+        0.69,
+        0.69,
+        0.69
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        -25
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.38,
+        0.38,
+        0.38
+      ]
+    },
+    "gui": {
+      "rotation": [
+        15,
+        -25,
+        -35
+      ],
+      "translation": [
+        -1.6,
+        -2.8,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        -35
+      ],
+      "translation": [
+        0,
+        -4,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  },
+  "tint_color": [
+    1,
+    0.705,
+    0.294
+  ]
+}

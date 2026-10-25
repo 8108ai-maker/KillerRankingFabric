@@ -1,0 +1,45 @@
+{
+  "attributes": {
+    "range_bonus": -0.25,
+    "category": "axe",
+    "two_handed": false,
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "killerranking:eunbal_hatchet_forehand",
+        "swing_sound": {
+          "id": "killerranking:swing.hatchet",
+          "volume": 0.8,
+          "pitch": 1.0
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 120,
+        "upswing": 0.5,
+        "animation": "killerranking:eunbal_hatchet_backhand",
+        "swing_sound": {
+          "id": "killerranking:swing.hatchet",
+          "volume": 0.8,
+          "pitch": 1.0
+        }
+      },
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 70,
+        "upswing": 0.5,
+        "animation": "killerranking:eunbal_hatchet_cleave",
+        "swing_sound": {
+          "id": "killerranking:swing.hatchet",
+          "volume": 0.8,
+          "pitch": 0.9
+        }
+      }
+    ]
+  }
+}

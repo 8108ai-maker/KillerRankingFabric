@@ -1,0 +1,1 @@
+The lower carry layer keeps both native palms on the sheathed hilt/saya while the locomotion system animates the body and legs. The main grip and sheath basis are unchanged. Only the opposite rigid arm root is corrected to place its palm on the scabbard axis, 3.25 model pixels below the hilt. All attack, extraction, insertion and parry clips remain unchanged.

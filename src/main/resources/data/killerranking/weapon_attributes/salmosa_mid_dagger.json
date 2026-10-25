@@ -1,0 +1,45 @@
+{
+  "attributes": {
+    "range_bonus": -0.25,
+    "category": "dagger",
+    "two_handed": false,
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 100,
+        "upswing": 0.46,
+        "animation": "killerranking:salmosa_dagger_forehand",
+        "swing_sound": {
+          "id": "killerranking:swing.dagger",
+          "volume": 0.7,
+          "pitch": 1.05
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 100,
+        "upswing": 0.46,
+        "animation": "killerranking:salmosa_dagger_backhand",
+        "swing_sound": {
+          "id": "killerranking:swing.dagger",
+          "volume": 0.7,
+          "pitch": 1.05
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1,
+        "angle": 45,
+        "upswing": 0.46,
+        "animation": "killerranking:salmosa_dagger_stab",
+        "swing_sound": {
+          "id": "killerranking:swing.dagger",
+          "volume": 0.7,
+          "pitch": 1.05
+        }
+      }
+    ]
+  }
+}

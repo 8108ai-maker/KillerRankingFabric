@@ -1,0 +1,46 @@
+{
+  "attributes": {
+    "range_bonus": 0.25,
+    "category": "katana",
+    "two_handed": false,
+    "pose": "killerranking:neungsa_katana_guard",
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 100,
+        "upswing": 0.5,
+        "animation": "killerranking:neungsa_katana_slash_right",
+        "swing_sound": {
+          "id": "killerranking:swing.katana",
+          "volume": 0.7,
+          "pitch": 1.0
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 100,
+        "upswing": 0.5,
+        "animation": "killerranking:neungsa_katana_slash_left",
+        "swing_sound": {
+          "id": "killerranking:swing.katana",
+          "volume": 0.7,
+          "pitch": 1.0
+        }
+      },
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 65,
+        "upswing": 0.5,
+        "animation": "killerranking:neungsa_katana_cleave",
+        "swing_sound": {
+          "id": "killerranking:swing.katana",
+          "volume": 0.7,
+          "pitch": 0.9
+        }
+      }
+    ]
+  }
+}

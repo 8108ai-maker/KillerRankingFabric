@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "kill_zombie",
+    "category": "kill",
+    "statId": "minecraft:zombie",
+    "title": "좀비 소탕",
+    "goal": 20,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_skeleton",
+    "category": "kill",
+    "statId": "minecraft:skeleton",
+    "title": "스켈레톤 사냥",
+    "goal": 15,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_creeper",
+    "category": "kill",
+    "statId": "minecraft:creeper",
+    "title": "크리퍼 진압",
+    "goal": 10,
+    "reward": 120,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_spider",
+    "category": "kill",
+    "statId": "minecraft:spider",
+    "title": "거미 사냥",
+    "goal": 15,
+    "reward": 90,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_cave_spider",
+    "category": "kill",
+    "statId": "minecraft:cave_spider",
+    "title": "폐광의 독거미",
+    "goal": 8,
+    "reward": 140,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_husk",
+    "category": "kill",
+    "statId": "minecraft:husk",
+    "title": "사막의 허스크",
+    "goal": 12,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_stray",
+    "category": "kill",
+    "statId": "minecraft:stray",
+    "title": "설원의 스트레이",
+    "goal": 10,
+    "reward": 130,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_drowned",
+    "category": "kill",
+    "statId": "minecraft:drowned",
+    "title": "수중의 위협",
+    "goal": 12,
+    "reward": 110,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_enderman",
+    "category": "kill",
+    "statId": "minecraft:enderman",
+    "title": "엔더맨 추적",
+    "goal": 5,
+    "reward": 160,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_witch",
+    "category": "kill",
+    "statId": "minecraft:witch",
+    "title": "마녀 토벌",
+    "goal": 4,
+    "reward": 180,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_slime",
+    "category": "kill",
+    "statId": "minecraft:slime",
+    "title": "슬라임 퇴치",
+    "goal": 15,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_magma_cube",
+    "category": "kill",
+    "statId": "minecraft:magma_cube",
+    "title": "마그마 큐브 퇴치",
+    "goal": 10,
+    "reward": 130,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_blaze",
+    "category": "kill",
+    "statId": "minecraft:blaze",
+    "title": "블레이즈 사냥",
+    "goal": 8,
+    "reward": 170,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_ghast",
+    "category": "kill",
+    "statId": "minecraft:ghast",
+    "title": "가스트 사냥",
+    "goal": 3,
+    "reward": 200,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_wither_skeleton",
+    "category": "kill",
+    "statId": "minecraft:wither_skeleton",
+    "title": "위더 스켈레톤 사냥",
+    "goal": 6,
+    "reward": 190,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_piglin_brute",
+    "category": "kill",
+    "statId": "minecraft:piglin_brute",
+    "title": "피글린 야수 토벌",
+    "goal": 2,
+    "reward": 220,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_hoglin",
+    "category": "kill",
+    "statId": "minecraft:hoglin",
+    "title": "호글린 사냥",
+    "goal": 6,
+    "reward": 140,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_zoglin",
+    "category": "kill",
+    "statId": "minecraft:zoglin",
+    "title": "조글린 사냥",
+    "goal": 2,
+    "reward": 200,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_pillager",
+    "category": "kill",
+    "statId": "minecraft:pillager",
+    "title": "약탈자 퇴치",
+    "goal": 10,
+    "reward": 140,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_vindicator",
+    "category": "kill",
+    "statId": "minecraft:vindicator",
+    "title": "변명자 퇴치",
+    "goal": 5,
+    "reward": 180,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_evoker",
+    "category": "kill",
+    "statId": "minecraft:evoker",
+    "title": "소환사 토벌",
+    "goal": 2,
+    "reward": 240,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_phantom",
+    "category": "kill",
+    "statId": "minecraft:phantom",
+    "title": "팬텀 사냥",
+    "goal": 5,
+    "reward": 130,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_silverfish",
+    "category": "kill",
+    "statId": "minecraft:silverfish",
+    "title": "좀벌레 퇴치",
+    "goal": 10,
+    "reward": 90,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_endermite",
+    "category": "kill",
+    "statId": "minecraft:endermite",
+    "title": "엔더마이트 퇴치",
+    "goal": 3,
+    "reward": 150,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_guardian",
+    "category": "kill",
+    "statId": "minecraft:guardian",
+    "title": "가디언 사냥",
+    "goal": 8,
+    "reward": 180,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_shulker",
+    "category": "kill",
+    "statId": "minecraft:shulker",
+    "title": "셜커 사냥",
+    "goal": 5,
+    "reward": 200,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_bogged",
+    "category": "kill",
+    "statId": "minecraft:bogged",
+    "title": "늪지의 보그드",
+    "goal": 8,
+    "reward": 130,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_breeze",
+    "category": "kill",
+    "statId": "minecraft:breeze",
+    "title": "브리즈 토벌",
+    "goal": 4,
+    "reward": 200,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_ravager",
+    "category": "kill",
+    "statId": "minecraft:ravager",
+    "title": "파괴수 토벌",
+    "goal": 1,
+    "reward": 250,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "kill_elder_guardian",
+    "category": "kill",
+    "statId": "minecraft:elder_guardian",
+    "title": "엘더 가디언 토벌",
+    "goal": 1,
+    "reward": 300,
+    "divisor": 1,
+    "unit": "마리"
+  },
+  {
+    "id": "mine_stone",
+    "category": "mine",
+    "statId": "minecraft:stone",
+    "title": "돌 채굴",
+    "goal": 128,
+    "reward": 60,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_deepslate",
+    "category": "mine",
+    "statId": "minecraft:deepslate",
+    "title": "심층암 채굴",
+    "goal": 96,
+    "reward": 80,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_granite",
+    "category": "mine",
+    "statId": "minecraft:granite",
+    "title": "화강암 채굴",
+    "goal": 48,
+    "reward": 60,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_diorite",
+    "category": "mine",
+    "statId": "minecraft:diorite",
+    "title": "섬록암 채굴",
+    "goal": 48,
+    "reward": 60,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_andesite",
+    "category": "mine",
+    "statId": "minecraft:andesite",
+    "title": "안산암 채굴",
+    "goal": 48,
+    "reward": 60,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_tuff",
+    "category": "mine",
+    "statId": "minecraft:tuff",
+    "title": "응회암 채굴",
+    "goal": 48,
+    "reward": 70,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_calcite",
+    "category": "mine",
+    "statId": "minecraft:calcite",
+    "title": "방해석 채굴",
+    "goal": 32,
+    "reward": 90,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_coal_ore",
+    "category": "mine",
+    "statId": "minecraft:coal_ore",
+    "title": "석탄 광맥",
+    "goal": 20,
+    "reward": 90,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_deepslate_coal_ore",
+    "category": "mine",
+    "statId": "minecraft:deepslate_coal_ore",
+    "title": "심층암 석탄 광맥",
+    "goal": 6,
+    "reward": 140,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_iron_ore",
+    "category": "mine",
+    "statId": "minecraft:iron_ore",
+    "title": "철 광맥",
+    "goal": 16,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_deepslate_iron_ore",
+    "category": "mine",
+    "statId": "minecraft:deepslate_iron_ore",
+    "title": "심층암 철 광맥",
+    "goal": 16,
+    "reward": 110,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_copper_ore",
+    "category": "mine",
+    "statId": "minecraft:copper_ore",
+    "title": "구리 광맥",
+    "goal": 24,
+    "reward": 90,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_deepslate_copper_ore",
+    "category": "mine",
+    "statId": "minecraft:deepslate_copper_ore",
+    "title": "심층암 구리 광맥",
+    "goal": 12,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_gold_ore",
+    "category": "mine",
+    "statId": "minecraft:gold_ore",
+    "title": "금 광맥",
+    "goal": 8,
+    "reward": 130,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_deepslate_gold_ore",
+    "category": "mine",
+    "statId": "minecraft:deepslate_gold_ore",
+    "title": "심층암 금 광맥",
+    "goal": 8,
+    "reward": 140,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_redstone_ore",
+    "category": "mine",
+    "statId": "minecraft:redstone_ore",
+    "title": "레드스톤 광맥",
+    "goal": 12,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_deepslate_redstone_ore",
+    "category": "mine",
+    "statId": "minecraft:deepslate_redstone_ore",
+    "title": "심층암 레드스톤 광맥",
+    "goal": 16,
+    "reward": 110,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_lapis_ore",
+    "category": "mine",
+    "statId": "minecraft:lapis_ore",
+    "title": "청금석 광맥",
+    "goal": 6,
+    "reward": 120,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_deepslate_lapis_ore",
+    "category": "mine",
+    "statId": "minecraft:deepslate_lapis_ore",
+    "title": "심층암 청금석 광맥",
+    "goal": 8,
+    "reward": 130,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_diamond_ore",
+    "category": "mine",
+    "statId": "minecraft:diamond_ore",
+    "title": "다이아몬드 광맥",
+    "goal": 3,
+    "reward": 180,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_deepslate_diamond_ore",
+    "category": "mine",
+    "statId": "minecraft:deepslate_diamond_ore",
+    "title": "심층암 다이아몬드 광맥",
+    "goal": 5,
+    "reward": 200,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_emerald_ore",
+    "category": "mine",
+    "statId": "minecraft:emerald_ore",
+    "title": "에메랄드 광맥",
+    "goal": 2,
+    "reward": 200,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_nether_quartz_ore",
+    "category": "mine",
+    "statId": "minecraft:nether_quartz_ore",
+    "title": "네더 석영 채굴",
+    "goal": 24,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_nether_gold_ore",
+    "category": "mine",
+    "statId": "minecraft:nether_gold_ore",
+    "title": "네더 금 채굴",
+    "goal": 20,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_ancient_debris",
+    "category": "mine",
+    "statId": "minecraft:ancient_debris",
+    "title": "고대 잔해 발굴",
+    "goal": 2,
+    "reward": 250,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_obsidian",
+    "category": "mine",
+    "statId": "minecraft:obsidian",
+    "title": "흑요석 채굴",
+    "goal": 12,
+    "reward": 140,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_amethyst_cluster",
+    "category": "mine",
+    "statId": "minecraft:amethyst_cluster",
+    "title": "자수정 송이 채굴",
+    "goal": 8,
+    "reward": 120,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_oak_log",
+    "category": "mine",
+    "statId": "minecraft:oak_log",
+    "title": "참나무 벌목",
+    "goal": 32,
+    "reward": 70,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_spruce_log",
+    "category": "mine",
+    "statId": "minecraft:spruce_log",
+    "title": "가문비나무 벌목",
+    "goal": 32,
+    "reward": 70,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "mine_birch_log",
+    "category": "mine",
+    "statId": "minecraft:birch_log",
+    "title": "자작나무 벌목",
+    "goal": 32,
+    "reward": 70,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_crafting_table",
+    "category": "craft",
+    "statId": "minecraft:crafting_table",
+    "title": "작업대 제작",
+    "goal": 4,
+    "reward": 40,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_furnace",
+    "category": "craft",
+    "statId": "minecraft:furnace",
+    "title": "화로 제작",
+    "goal": 4,
+    "reward": 50,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_chest",
+    "category": "craft",
+    "statId": "minecraft:chest",
+    "title": "상자 제작",
+    "goal": 8,
+    "reward": 50,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_torch",
+    "category": "craft",
+    "statId": "minecraft:torch",
+    "title": "횃불 제작",
+    "goal": 64,
+    "reward": 40,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_ladder",
+    "category": "craft",
+    "statId": "minecraft:ladder",
+    "title": "사다리 제작",
+    "goal": 24,
+    "reward": 50,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_oak_planks",
+    "category": "craft",
+    "statId": "minecraft:oak_planks",
+    "title": "참나무 판자 제작",
+    "goal": 128,
+    "reward": 40,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_stone_bricks",
+    "category": "craft",
+    "statId": "minecraft:stone_bricks",
+    "title": "석재 벽돌 제작",
+    "goal": 64,
+    "reward": 60,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_glass_pane",
+    "category": "craft",
+    "statId": "minecraft:glass_pane",
+    "title": "유리판 제작",
+    "goal": 32,
+    "reward": 60,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_rail",
+    "category": "craft",
+    "statId": "minecraft:rail",
+    "title": "레일 제작",
+    "goal": 32,
+    "reward": 90,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_powered_rail",
+    "category": "craft",
+    "statId": "minecraft:powered_rail",
+    "title": "전동 레일 제작",
+    "goal": 12,
+    "reward": 120,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_hopper",
+    "category": "craft",
+    "statId": "minecraft:hopper",
+    "title": "호퍼 제작",
+    "goal": 4,
+    "reward": 110,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_piston",
+    "category": "craft",
+    "statId": "minecraft:piston",
+    "title": "피스톤 제작",
+    "goal": 4,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_observer",
+    "category": "craft",
+    "statId": "minecraft:observer",
+    "title": "관측기 제작",
+    "goal": 4,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_dispenser",
+    "category": "craft",
+    "statId": "minecraft:dispenser",
+    "title": "발사기 제작",
+    "goal": 3,
+    "reward": 90,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_dropper",
+    "category": "craft",
+    "statId": "minecraft:dropper",
+    "title": "공급기 제작",
+    "goal": 4,
+    "reward": 70,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_repeater",
+    "category": "craft",
+    "statId": "minecraft:repeater",
+    "title": "중계기 제작",
+    "goal": 6,
+    "reward": 90,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_comparator",
+    "category": "craft",
+    "statId": "minecraft:comparator",
+    "title": "비교기 제작",
+    "goal": 4,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_iron_pickaxe",
+    "category": "craft",
+    "statId": "minecraft:iron_pickaxe",
+    "title": "철 곡괭이 제작",
+    "goal": 2,
+    "reward": 80,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_iron_sword",
+    "category": "craft",
+    "statId": "minecraft:iron_sword",
+    "title": "철검 제작",
+    "goal": 2,
+    "reward": 70,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_shield",
+    "category": "craft",
+    "statId": "minecraft:shield",
+    "title": "방패 제작",
+    "goal": 2,
+    "reward": 60,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_bow",
+    "category": "craft",
+    "statId": "minecraft:bow",
+    "title": "활 제작",
+    "goal": 2,
+    "reward": 60,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_crossbow",
+    "category": "craft",
+    "statId": "minecraft:crossbow",
+    "title": "쇠뇌 제작",
+    "goal": 2,
+    "reward": 90,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_arrow",
+    "category": "craft",
+    "statId": "minecraft:arrow",
+    "title": "화살 제작",
+    "goal": 32,
+    "reward": 60,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_bread",
+    "category": "craft",
+    "statId": "minecraft:bread",
+    "title": "빵 제작",
+    "goal": 16,
+    "reward": 70,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_cookie",
+    "category": "craft",
+    "statId": "minecraft:cookie",
+    "title": "쿠키 제작",
+    "goal": 32,
+    "reward": 70,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_cake",
+    "category": "craft",
+    "statId": "minecraft:cake",
+    "title": "케이크 제작",
+    "goal": 2,
+    "reward": 110,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_golden_carrot",
+    "category": "craft",
+    "statId": "minecraft:golden_carrot",
+    "title": "황금 당근 제작",
+    "goal": 8,
+    "reward": 120,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_bucket",
+    "category": "craft",
+    "statId": "minecraft:bucket",
+    "title": "양동이 제작",
+    "goal": 3,
+    "reward": 70,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_book",
+    "category": "craft",
+    "statId": "minecraft:book",
+    "title": "책 제작",
+    "goal": 8,
+    "reward": 70,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "craft_bookshelf",
+    "category": "craft",
+    "statId": "minecraft:bookshelf",
+    "title": "책장 제작",
+    "goal": 4,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "개"
+  },
+  {
+    "id": "activity_jump",
+    "category": "activity",
+    "statId": "minecraft:jump",
+    "title": "점프 연습",
+    "goal": 200,
+    "reward": 60,
+    "divisor": 1,
+    "unit": "회"
+  },
+  {
+    "id": "activity_fish_caught",
+    "category": "activity",
+    "statId": "minecraft:fish_caught",
+    "title": "낚시하기",
+    "goal": 10,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "회"
+  },
+  {
+    "id": "activity_animals_bred",
+    "category": "activity",
+    "statId": "minecraft:animals_bred",
+    "title": "동물 번식",
+    "goal": 8,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "회"
+  },
+  {
+    "id": "activity_enchant_item",
+    "category": "activity",
+    "statId": "minecraft:enchant_item",
+    "title": "마법 부여",
+    "goal": 3,
+    "reward": 120,
+    "divisor": 1,
+    "unit": "회"
+  },
+  {
+    "id": "activity_traded_with_villager",
+    "category": "activity",
+    "statId": "minecraft:traded_with_villager",
+    "title": "주민과 거래",
+    "goal": 10,
+    "reward": 100,
+    "divisor": 1,
+    "unit": "회"
+  },
+  {
+    "id": "activity_sleep_in_bed",
+    "category": "activity",
+    "statId": "minecraft:sleep_in_bed",
+    "title": "침대에서 휴식",
+    "goal": 2,
+    "reward": 60,
+    "divisor": 1,
+    "unit": "회"
+  },
+  {
+    "id": "activity_walk_one_cm",
+    "category": "activity",
+    "statId": "minecraft:walk_one_cm",
+    "title": "도보 여행",
+    "goal": 100000,
+    "reward": 90,
+    "divisor": 100,
+    "unit": "m"
+  },
+  {
+    "id": "activity_sprint_one_cm",
+    "category": "activity",
+    "statId": "minecraft:sprint_one_cm",
+    "title": "달리기 훈련",
+    "goal": 150000,
+    "reward": 100,
+    "divisor": 100,
+    "unit": "m"
+  },
+  {
+    "id": "activity_swim_one_cm",
+    "category": "activity",
+    "statId": "minecraft:swim_one_cm",
+    "title": "수영 훈련",
+    "goal": 30000,
+    "reward": 90,
+    "divisor": 100,
+    "unit": "m"
+  },
+  {
+    "id": "activity_boat_one_cm",
+    "category": "activity",
+    "statId": "minecraft:boat_one_cm",
+    "title": "보트 여행",
+    "goal": 100000,
+    "reward": 100,
+    "divisor": 100,
+    "unit": "m"
+  }
+]

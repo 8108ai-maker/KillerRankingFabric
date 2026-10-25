@@ -1,0 +1,178 @@
+{
+  "version": 3,
+  "name": "neungsa_katana_drawn_guard",
+  "author": "Killer Ranking",
+  "description": "Normal thumb-side katana grip, blade exits the forward face of the fist. Upright drawn stance. Skin forearm and fixed attachment authored together; preserved hilt positions, cutting edge paths, native sizes, straight extraction and insertion.",
+  "emote": {
+    "isLoop": true,
+    "returnTick": 0,
+    "beginTick": 0,
+    "endTick": 64,
+    "stopTick": 64,
+    "degrees": false,
+    "moves": [
+      {
+        "rightArm": {
+          "x": -3.226269230063043,
+          "y": 2.33611225915297,
+          "z": 0.8607599578430309,
+          "pitch": -0.8749112516683704,
+          "yaw": -0.4449136950411358,
+          "roll": 0.1872740324306441,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621403500623,
+          "y": 0.5659334033212158,
+          "z": 0.22078085585401364,
+          "pitch": -0.15267147800579742,
+          "yaw": 0.005072481807838493,
+          "roll": 0.03295419741674566,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": -1.1418408769694992,
+          "yaw": -0.09692051625142696,
+          "roll": 1.7539226848715352
+        },
+        "body": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.0,
+          "pitch": 0.02,
+          "yaw": 0,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.8,
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.8,
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 26,
+          "y": 0,
+          "z": 1
+        },
+        "tick": 0,
+        "easing": "LINEAR"
+      },
+      {
+        "rightArm": {
+          "x": -3.226269230063043,
+          "y": 2.33611225915297,
+          "z": 0.8607599578430309,
+          "pitch": -0.8749112516683704,
+          "yaw": -0.4449136950411358,
+          "roll": 0.1872740324306441,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621403500623,
+          "y": 0.5659334033212158,
+          "z": 0.22078085585401364,
+          "pitch": -0.15267147800579742,
+          "yaw": 0.005072481807838493,
+          "roll": 0.03295419741674566,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": -1.1418408769694992,
+          "yaw": -0.09692051625142696,
+          "roll": 1.7539226848715352
+        },
+        "body": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.0,
+          "pitch": 0.02,
+          "yaw": 0,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.8,
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.8,
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 26,
+          "y": 0,
+          "z": 1
+        },
+        "tick": 64,
+        "easing": "LINEAR"
+      }
+    ]
+  }
+}

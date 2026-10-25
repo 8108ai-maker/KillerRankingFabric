@@ -1,0 +1,143 @@
+{
+  "name": "parry_reverse",
+  "author": "Killer Ranking",
+  "description": "Opposite-side guard at the same native shoulder pivot. No limb enlargement or independent item rotation.",
+  "emote": {
+    "isLoop": "false",
+    "returnTick": 0,
+    "beginTick": 0,
+    "endTick": 7,
+    "stopTick": 11,
+    "degrees": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "EASEOUTQUAD",
+        "rightArm": {
+          "x": -5,
+          "y": 2,
+          "z": 0,
+          "pitch": -0.45,
+          "yaw": 0.15,
+          "roll": -0.15,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 5,
+          "y": 2,
+          "z": 0,
+          "pitch": -0.12,
+          "yaw": 0,
+          "roll": -0.08
+        },
+        "torso": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        }
+      },
+      {
+        "tick": 2,
+        "easing": "EASEOUTQUAD",
+        "rightArm": {
+          "x": -5,
+          "y": 2,
+          "z": 0,
+          "pitch": -1.55,
+          "yaw": 0.4,
+          "roll": -0.82,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "pitch": -0.12,
+          "yaw": 0,
+          "roll": -0.08
+        },
+        "torso": {
+          "pitch": 0.02,
+          "yaw": 0.06,
+          "roll": 0
+        }
+      },
+      {
+        "tick": 4,
+        "easing": "EASEINOUTQUAD",
+        "rightArm": {
+          "x": -5,
+          "y": 2,
+          "z": 0,
+          "pitch": -1.35,
+          "yaw": -0.15,
+          "roll": -0.52,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "pitch": -0.12,
+          "yaw": 0,
+          "roll": -0.08
+        },
+        "torso": {
+          "pitch": 0,
+          "yaw": -0.04,
+          "roll": 0
+        }
+      },
+      {
+        "tick": 7,
+        "easing": "EASEINOUTQUAD",
+        "rightArm": {
+          "x": -5,
+          "y": 2,
+          "z": 0,
+          "pitch": -1.35,
+          "yaw": -0.15,
+          "roll": -0.52,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "pitch": -0.12,
+          "yaw": 0,
+          "roll": -0.08
+        },
+        "torso": {
+          "pitch": 0,
+          "yaw": -0.04,
+          "roll": 0
+        }
+      },
+      {
+        "tick": 11,
+        "easing": "EASEINOUTSINE",
+        "rightArm": {
+          "x": -5,
+          "y": 2,
+          "z": 0,
+          "pitch": -0.45,
+          "yaw": 0.15,
+          "roll": -0.15,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "pitch": -0.12,
+          "yaw": 0,
+          "roll": -0.08
+        },
+        "torso": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        }
+      }
+    ]
+  }
+}

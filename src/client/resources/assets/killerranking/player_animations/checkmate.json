@@ -1,0 +1,987 @@
+{
+  "version": 3,
+  "name": "checkmate",
+  "author": "Killer Ranking",
+  "description": "Night: knight L-square leap, aerial wind-up, overhead impact and planted recovery.",
+  "emote": {
+    "isLoop": "false",
+    "returnTick": 0,
+    "beginTick": 0,
+    "endTick": 40,
+    "stopTick": 42,
+    "degrees": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "EASEINOUTSINE",
+        "body": {
+          "x": 0,
+          "y": -0.0,
+          "z": 0.0,
+          "pitch": 0,
+          "yaw": 0.0,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0,
+          "yaw": -0.0
+        },
+        "rightArm": {
+          "x": -5.0,
+          "y": 2.0,
+          "z": 0,
+          "pitch": -0.35,
+          "yaw": -0.0,
+          "roll": -0.1,
+          "scaleY": 1,
+          "scaleX": 1.0,
+          "scaleZ": 1.0
+        },
+        "leftArm": {
+          "x": 5.0,
+          "y": 2.0,
+          "z": 0.0,
+          "pitch": -0.15,
+          "yaw": 0.0,
+          "roll": 0.08,
+          "scaleX": 1,
+          "scaleY": 1.0,
+          "scaleZ": 1
+        },
+        "rightLeg": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0,
+          "scaleY": 1.0
+        },
+        "leftLeg": {
+          "pitch": -0.0,
+          "yaw": -0.0,
+          "roll": -0.0,
+          "scaleY": 1.0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 1,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 2,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 3,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 4,
+        "easing": "EASEINOUTSINE",
+        "body": {
+          "x": 0,
+          "y": -0.0315,
+          "z": 0.0385,
+          "pitch": 0.05,
+          "yaw": 0.003,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.06,
+          "yaw": -0.00525
+        },
+        "rightArm": {
+          "x": -4.65,
+          "y": 1.9475,
+          "z": 2.1,
+          "pitch": -2.35,
+          "yaw": -0.018,
+          "roll": -0.10750000000000001,
+          "scaleY": 0.92,
+          "scaleX": 1.0425720702853738,
+          "scaleZ": 1.0425720702853738
+        },
+        "leftArm": {
+          "x": 4.825,
+          "y": 1.9775,
+          "z": 0.075,
+          "pitch": -0.515,
+          "yaw": 0.03,
+          "roll": 0.1175,
+          "scaleX": 1,
+          "scaleY": 0.972,
+          "scaleZ": 1
+        },
+        "rightLeg": {
+          "pitch": -0.111,
+          "yaw": 0.0315,
+          "roll": 0.041999999999999996,
+          "scaleY": 0.965
+        },
+        "leftLeg": {
+          "pitch": -0.14100000000000001,
+          "yaw": -0.0315,
+          "roll": -0.041999999999999996,
+          "scaleY": 0.965
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 5,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 6,
+        "easing": "EASEINOUTSINE",
+        "body": {
+          "x": 0,
+          "y": -0.045,
+          "z": 0.055,
+          "pitch": 0.025,
+          "yaw": 0.006,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.11,
+          "yaw": -0.0105
+        },
+        "rightArm": {
+          "x": -4.5,
+          "y": 1.895,
+          "z": 3,
+          "pitch": -2.7,
+          "yaw": -0.036,
+          "roll": -0.115,
+          "scaleY": 0.94,
+          "scaleX": 1.0314212462587935,
+          "scaleZ": 1.0314212462587935
+        },
+        "leftArm": {
+          "x": 4.75,
+          "y": 1.955,
+          "z": 0.15,
+          "pitch": -0.74,
+          "yaw": 0.06,
+          "roll": 0.155,
+          "scaleX": 1,
+          "scaleY": 0.96,
+          "scaleZ": 1
+        },
+        "rightLeg": {
+          "pitch": -0.05399999999999999,
+          "yaw": 0.045,
+          "roll": 0.06,
+          "scaleY": 0.95
+        },
+        "leftLeg": {
+          "pitch": -0.306,
+          "yaw": -0.045,
+          "roll": -0.06,
+          "scaleY": 0.95
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 7,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 8,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 9,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 10,
+        "easing": "EASEINOUTSINE",
+        "body": {
+          "x": 0,
+          "y": -0.009,
+          "z": 0.011000000000000001,
+          "pitch": -0.05,
+          "yaw": 0.013000000000000001,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.09,
+          "yaw": -0.022750000000000003
+        },
+        "rightArm": {
+          "x": -4.9,
+          "y": 1.7725,
+          "z": 3.6,
+          "pitch": -3.25,
+          "yaw": -0.078,
+          "roll": -0.1325,
+          "scaleY": 0.97,
+          "scaleX": 1.015346165133619,
+          "scaleZ": 1.015346165133619
+        },
+        "leftArm": {
+          "x": 4.95,
+          "y": 1.9025,
+          "z": 0.325,
+          "pitch": -0.74,
+          "yaw": 0.13,
+          "roll": 0.2425,
+          "scaleX": 1,
+          "scaleY": 0.992,
+          "scaleZ": 1
+        },
+        "rightLeg": {
+          "pitch": 0.23700000000000002,
+          "yaw": 0.009,
+          "roll": 0.012,
+          "scaleY": 0.99
+        },
+        "leftLeg": {
+          "pitch": -0.309,
+          "yaw": -0.009,
+          "roll": -0.012,
+          "scaleY": 0.99
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 11,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 12,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 13,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 14,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 15,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 16,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 17,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 18,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 19,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 20,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 21,
+        "easing": "EASEINOUTSINE",
+        "body": {
+          "x": 0,
+          "y": -0.0,
+          "z": 0.0,
+          "pitch": -0.04,
+          "yaw": 0.02,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.15,
+          "yaw": -0.035
+        },
+        "rightArm": {
+          "x": -5.0,
+          "y": 1.65,
+          "z": 3.4,
+          "pitch": -3.9,
+          "yaw": -0.12,
+          "roll": -0.15000000000000002,
+          "scaleY": 0.93,
+          "scaleX": 1.0369516947304251,
+          "scaleZ": 1.0369516947304251
+        },
+        "leftArm": {
+          "x": 5.0,
+          "y": 1.85,
+          "z": 0.5,
+          "pitch": -0.9500000000000001,
+          "yaw": 0.2,
+          "roll": 0.33,
+          "scaleX": 1,
+          "scaleY": 1.0,
+          "scaleZ": 1
+        },
+        "rightLeg": {
+          "pitch": 0.42,
+          "yaw": 0.0,
+          "roll": 0.0,
+          "scaleY": 1.0
+        },
+        "leftLeg": {
+          "pitch": -0.42,
+          "yaw": -0.0,
+          "roll": -0.0,
+          "scaleY": 1.0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 22,
+        "easing": "LINEAR",
+        "body": {
+          "x": 0,
+          "y": -0.0,
+          "z": 0.0,
+          "pitch": -0.02,
+          "yaw": 0.02,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.12,
+          "yaw": -0.035
+        },
+        "rightArm": {
+          "x": -5.0,
+          "y": 1.65,
+          "z": 3.4,
+          "pitch": -3.88,
+          "yaw": -0.12,
+          "roll": -0.15000000000000002,
+          "scaleY": 0.95,
+          "scaleX": 1.0259783520851542,
+          "scaleZ": 1.0259783520851542
+        },
+        "leftArm": {
+          "x": 5.0,
+          "y": 1.85,
+          "z": 0.5,
+          "pitch": -0.9500000000000001,
+          "yaw": 0.2,
+          "roll": 0.33,
+          "scaleX": 1,
+          "scaleY": 1.0,
+          "scaleZ": 1
+        },
+        "rightLeg": {
+          "pitch": 0.42,
+          "yaw": 0.0,
+          "roll": 0.0,
+          "scaleY": 1.0
+        },
+        "leftLeg": {
+          "pitch": -0.42,
+          "yaw": -0.0,
+          "roll": -0.0,
+          "scaleY": 1.0
+        },
+        "nightBatTrail": {
+          "x": 1,
+          "y": 1,
+          "z": 0
+        }
+      },
+      {
+        "tick": 23,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 1,
+          "y": 1,
+          "z": 0
+        }
+      },
+      {
+        "tick": 24,
+        "easing": "LINEAR",
+        "body": {
+          "x": 0,
+          "y": -0.01125,
+          "z": 0.01375,
+          "pitch": 0.09,
+          "yaw": 0.013999999999999999,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.1,
+          "yaw": -0.0245
+        },
+        "rightArm": {
+          "x": -4.875,
+          "y": 1.7550000000000001,
+          "z": -1.2,
+          "pitch": -1.82,
+          "yaw": -0.08399999999999999,
+          "roll": -0.135,
+          "scaleY": 1.22,
+          "scaleX": 0.9053574604251853,
+          "scaleZ": 0.9053574604251853
+        },
+        "leftArm": {
+          "x": 4.9375,
+          "y": 1.895,
+          "z": 0.35,
+          "pitch": -0.7975,
+          "yaw": 0.13999999999999999,
+          "roll": 0.255,
+          "scaleX": 1,
+          "scaleY": 0.99,
+          "scaleZ": 1
+        },
+        "rightLeg": {
+          "pitch": 0.249,
+          "yaw": 0.01125,
+          "roll": 0.015,
+          "scaleY": 0.9875
+        },
+        "leftLeg": {
+          "pitch": -0.33899999999999997,
+          "yaw": -0.01125,
+          "roll": -0.015,
+          "scaleY": 0.9875
+        },
+        "nightBatTrail": {
+          "x": 1,
+          "y": 1,
+          "z": 0
+        }
+      },
+      {
+        "tick": 25,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 1,
+          "y": 1,
+          "z": 0
+        }
+      },
+      {
+        "tick": 26,
+        "easing": "LINEAR",
+        "body": {
+          "x": 0,
+          "y": -0.045,
+          "z": 0.055,
+          "pitch": 0.13,
+          "yaw": 0.004,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.24,
+          "yaw": -0.007000000000000001
+        },
+        "rightArm": {
+          "x": -4.5,
+          "y": 1.93,
+          "z": -0.65,
+          "pitch": 0.62,
+          "yaw": -0.024,
+          "roll": -0.11000000000000001,
+          "scaleY": 1.12,
+          "scaleX": 0.944911182523068,
+          "scaleZ": 0.944911182523068
+        },
+        "leftArm": {
+          "x": 4.75,
+          "y": 1.97,
+          "z": 0.1,
+          "pitch": -0.66,
+          "yaw": 0.04000000000000001,
+          "roll": 0.13,
+          "scaleX": 1,
+          "scaleY": 0.96,
+          "scaleZ": 1
+        },
+        "rightLeg": {
+          "pitch": -0.15999999999999998,
+          "yaw": 0.045,
+          "roll": 0.06,
+          "scaleY": 0.95
+        },
+        "leftLeg": {
+          "pitch": -0.2,
+          "yaw": -0.045,
+          "roll": -0.06,
+          "scaleY": 0.95
+        },
+        "nightBatTrail": {
+          "x": 1,
+          "y": 1,
+          "z": 0
+        }
+      },
+      {
+        "tick": 27,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 1,
+          "y": 1,
+          "z": 0
+        }
+      },
+      {
+        "tick": 28,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 1,
+          "y": 1,
+          "z": 0
+        }
+      },
+      {
+        "tick": 29,
+        "easing": "EASEINOUTSINE",
+        "body": {
+          "x": 0,
+          "y": -0.0324,
+          "z": 0.039599999999999996,
+          "pitch": 0.09,
+          "yaw": 0.002,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.17,
+          "yaw": -0.0035000000000000005
+        },
+        "rightArm": {
+          "x": -4.64,
+          "y": 1.965,
+          "z": -0.45,
+          "pitch": 0.5,
+          "yaw": -0.012,
+          "roll": -0.10500000000000001,
+          "scaleY": 1.04,
+          "scaleX": 0.9805806756909201,
+          "scaleZ": 0.9805806756909201
+        },
+        "leftArm": {
+          "x": 4.82,
+          "y": 1.985,
+          "z": 0.05,
+          "pitch": -0.482,
+          "yaw": 0.020000000000000004,
+          "roll": 0.10500000000000001,
+          "scaleX": 1,
+          "scaleY": 0.9712,
+          "scaleZ": 1
+        },
+        "rightLeg": {
+          "pitch": -0.11959999999999998,
+          "yaw": 0.0324,
+          "roll": 0.043199999999999995,
+          "scaleY": 0.964
+        },
+        "leftLeg": {
+          "pitch": -0.1396,
+          "yaw": -0.0324,
+          "roll": -0.043199999999999995,
+          "scaleY": 0.964
+        },
+        "nightBatTrail": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 30,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 31,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 32,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 33,
+        "easing": "EASEINOUTSINE",
+        "body": {
+          "x": 0,
+          "y": -0.01125,
+          "z": 0.01375,
+          "pitch": 0.015,
+          "yaw": 0.0,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.055,
+          "yaw": -0.0
+        },
+        "rightArm": {
+          "x": -4.875,
+          "y": 2.0,
+          "z": 0,
+          "pitch": 0.15,
+          "yaw": -0.0,
+          "roll": -0.1,
+          "scaleY": 0.97,
+          "scaleX": 1.015346165133619,
+          "scaleZ": 1.015346165133619
+        },
+        "leftArm": {
+          "x": 4.9375,
+          "y": 2.0,
+          "z": 0.0,
+          "pitch": -0.2375,
+          "yaw": 0.0,
+          "roll": 0.08,
+          "scaleX": 1,
+          "scaleY": 0.99,
+          "scaleZ": 1
+        },
+        "rightLeg": {
+          "pitch": -0.045,
+          "yaw": 0.01125,
+          "roll": 0.015,
+          "scaleY": 0.9875
+        },
+        "leftLeg": {
+          "pitch": -0.045,
+          "yaw": -0.01125,
+          "roll": -0.015,
+          "scaleY": 0.9875
+        },
+        "nightBatTrail": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 34,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 35,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 36,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 37,
+        "easing": "EASEINOUTSINE",
+        "body": {
+          "x": 0,
+          "y": -0.0013499999999999999,
+          "z": 0.00165,
+          "pitch": -0.015,
+          "yaw": 0.0,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.018,
+          "yaw": -0.0
+        },
+        "rightArm": {
+          "x": -4.985,
+          "y": 2.0,
+          "z": 0.15,
+          "pitch": -0.28,
+          "yaw": -0.0,
+          "roll": -0.1,
+          "scaleY": 1.015,
+          "scaleX": 0.9925833339709303,
+          "scaleZ": 0.9925833339709303
+        },
+        "leftArm": {
+          "x": 4.9925,
+          "y": 2.0,
+          "z": 0.0,
+          "pitch": -0.1605,
+          "yaw": 0.0,
+          "roll": 0.08,
+          "scaleX": 1,
+          "scaleY": 0.9988,
+          "scaleZ": 1
+        },
+        "rightLeg": {
+          "pitch": -0.005399999999999999,
+          "yaw": 0.0013499999999999999,
+          "roll": 0.0018,
+          "scaleY": 0.9985
+        },
+        "leftLeg": {
+          "pitch": -0.005399999999999999,
+          "yaw": -0.0013499999999999999,
+          "roll": -0.0018,
+          "scaleY": 0.9985
+        },
+        "nightBatTrail": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 38,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 39,
+        "easing": "CONSTANT",
+        "nightBatTrail": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 40,
+        "easing": "EASEINOUTSINE",
+        "body": {
+          "x": 0,
+          "y": -0.0,
+          "z": 0.0,
+          "pitch": 0,
+          "yaw": 0.0,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0,
+          "yaw": -0.0
+        },
+        "rightArm": {
+          "x": -5.0,
+          "y": 2.0,
+          "z": 0,
+          "pitch": -0.35,
+          "yaw": -0.0,
+          "roll": -0.1,
+          "scaleY": 1,
+          "scaleX": 1.0,
+          "scaleZ": 1.0
+        },
+        "leftArm": {
+          "x": 5.0,
+          "y": 2.0,
+          "z": 0.0,
+          "pitch": -0.15,
+          "yaw": 0.0,
+          "roll": 0.08,
+          "scaleX": 1,
+          "scaleY": 1.0,
+          "scaleZ": 1
+        },
+        "rightLeg": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0,
+          "scaleY": 1.0
+        },
+        "leftLeg": {
+          "pitch": -0.0,
+          "yaw": -0.0,
+          "roll": -0.0,
+          "scaleY": 1.0
+        },
+        "nightBatTrail": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 42,
+        "easing": "EASEINOUTSINE",
+        "body": {
+          "x": 0,
+          "y": -0.0,
+          "z": 0.0,
+          "pitch": 0,
+          "yaw": 0.0,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0,
+          "yaw": -0.0
+        },
+        "rightArm": {
+          "x": -5.0,
+          "y": 2.0,
+          "z": 0,
+          "pitch": -0.35,
+          "yaw": -0.0,
+          "roll": -0.1,
+          "scaleY": 1,
+          "scaleX": 1.0,
+          "scaleZ": 1.0
+        },
+        "leftArm": {
+          "x": 5.0,
+          "y": 2.0,
+          "z": 0.0,
+          "pitch": -0.15,
+          "yaw": 0.0,
+          "roll": 0.08,
+          "scaleX": 1,
+          "scaleY": 1.0,
+          "scaleZ": 1
+        },
+        "rightLeg": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0,
+          "scaleY": 1.0
+        },
+        "leftLeg": {
+          "pitch": -0.0,
+          "yaw": -0.0,
+          "roll": -0.0,
+          "scaleY": 1.0
+        }
+      }
+    ]
+  }
+}

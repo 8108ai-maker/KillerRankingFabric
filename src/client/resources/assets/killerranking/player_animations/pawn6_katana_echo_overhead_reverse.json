@@ -1,0 +1,520 @@
+{
+  "version": 3,
+  "name": "pawn6_katana_echo_overhead_reverse",
+  "author": "Killer Ranking",
+  "description": "Opposite-side Both hands raise the katana above the head, catch the impact and recover. Upper-body echo only; native arm/item size and two-hand hilt grip.",
+  "emote": {
+    "isLoop": "false",
+    "returnTick": 0,
+    "beginTick": 0,
+    "endTick": 7,
+    "stopTick": 11,
+    "degrees": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -5.09304,
+          "y": 2.002481,
+          "z": -0.219366,
+          "pitch": -1.624102,
+          "yaw": -0.95547,
+          "roll": 0.043542,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 5.626658,
+          "y": 1.61491,
+          "z": 1.145888,
+          "pitch": -1.036505,
+          "yaw": 0.620402,
+          "roll": 0.33131,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": -0.513522,
+          "y": -0.421935,
+          "z": -1.116246,
+          "pitch": -0.614641,
+          "yaw": 0.254275,
+          "roll": 0.138885,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 1,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -4.390805,
+          "y": 1.604419,
+          "z": -0.766786,
+          "pitch": -2.498596,
+          "yaw": -0.630307,
+          "roll": 0.666568,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 5.380481,
+          "y": 2.217431,
+          "z": 0.689652,
+          "pitch": -2.248999,
+          "yaw": 0.681423,
+          "roll": -0.469634,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": -0.760582,
+          "y": -1.51485,
+          "z": -1.784978,
+          "pitch": -1.440488,
+          "yaw": 0.450751,
+          "roll": -0.275586,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 2,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -3.017188,
+          "y": -0.283999,
+          "z": -1.780835,
+          "pitch": -2.691255,
+          "yaw": -0.370918,
+          "roll": 0.643325,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 3.760146,
+          "y": 0.234669,
+          "z": -0.97187,
+          "pitch": -2.610511,
+          "yaw": 0.345337,
+          "roll": -0.522825,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": -1.398369,
+          "y": -1.984441,
+          "z": -1.429798,
+          "pitch": -1.886613,
+          "yaw": 0.719561,
+          "roll": -0.4714,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 3,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -3.258674,
+          "y": 0.124726,
+          "z": -1.639482,
+          "pitch": -2.658762,
+          "yaw": -0.405861,
+          "roll": 0.645512,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 3.946554,
+          "y": 0.658763,
+          "z": -0.775099,
+          "pitch": -2.573436,
+          "yaw": 0.387906,
+          "roll": -0.534905,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": -1.328984,
+          "y": -1.960282,
+          "z": -1.494063,
+          "pitch": -1.707014,
+          "yaw": 0.716641,
+          "roll": -0.235595,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 4,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -3.311102,
+          "y": 0.202839,
+          "z": -1.5775,
+          "pitch": -2.663245,
+          "yaw": -0.407512,
+          "roll": 0.652624,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.016301,
+          "y": 0.774657,
+          "z": -0.695776,
+          "pitch": -2.569758,
+          "yaw": 0.395309,
+          "roll": -0.539227,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": -1.302328,
+          "y": -1.921485,
+          "z": -1.515842,
+          "pitch": -1.686447,
+          "yaw": 0.702827,
+          "roll": -0.23804,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 5,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -3.285215,
+          "y": 0.168595,
+          "z": -1.58072,
+          "pitch": -2.670222,
+          "yaw": -0.403213,
+          "roll": 0.656073,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.019965,
+          "y": 0.762685,
+          "z": -0.690522,
+          "pitch": -2.575395,
+          "yaw": 0.389724,
+          "roll": -0.538755,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": -1.302026,
+          "y": -1.920232,
+          "z": -1.516036,
+          "pitch": -1.71278,
+          "yaw": 0.698631,
+          "roll": -0.279886,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 6,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -3.21992,
+          "y": 0.084724,
+          "z": -1.606894,
+          "pitch": -2.680177,
+          "yaw": -0.396306,
+          "roll": 0.660155,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.019774,
+          "y": 0.727693,
+          "z": -0.692499,
+          "pitch": -2.584362,
+          "yaw": 0.379067,
+          "roll": -0.535917,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": -1.299604,
+          "y": -1.925439,
+          "z": -1.518377,
+          "pitch": -1.768227,
+          "yaw": 0.6853,
+          "roll": -0.363436,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 7,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -3.127161,
+          "y": -0.036712,
+          "z": -1.634397,
+          "pitch": -2.696514,
+          "yaw": -0.385134,
+          "roll": 0.667132,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.007846,
+          "y": 0.652882,
+          "z": -0.704123,
+          "pitch": -2.600484,
+          "yaw": 0.361391,
+          "roll": -0.531826,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": -1.3102,
+          "y": -1.940196,
+          "z": -1.5099,
+          "pitch": -1.868779,
+          "yaw": 0.660388,
+          "roll": -0.509803,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 8,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -3.877795,
+          "y": 1.105715,
+          "z": -1.127856,
+          "pitch": -2.590075,
+          "yaw": -0.532416,
+          "roll": 0.689878,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 5.007588,
+          "y": 2.006419,
+          "z": 0.307906,
+          "pitch": -2.403585,
+          "yaw": 0.550931,
+          "roll": -0.52229,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": -0.884422,
+          "y": -1.661391,
+          "z": -1.761574,
+          "pitch": -1.582721,
+          "yaw": 0.493143,
+          "roll": -0.390829,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 9,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -4.776384,
+          "y": 1.913994,
+          "z": -0.47488,
+          "pitch": -2.275165,
+          "yaw": -0.820959,
+          "roll": 0.556346,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 6.010061,
+          "y": 2.116701,
+          "z": 1.459498,
+          "pitch": -1.716319,
+          "yaw": 0.808496,
+          "roll": -0.105604,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": -0.427461,
+          "y": -1.039783,
+          "z": -1.701546,
+          "pitch": -1.104887,
+          "yaw": 0.3102,
+          "roll": -0.126765,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 10,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -5.05086,
+          "y": 2.007546,
+          "z": -0.257617,
+          "pitch": -1.875103,
+          "yaw": -0.945898,
+          "roll": 0.249407,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 5.868039,
+          "y": 1.690829,
+          "z": 1.401563,
+          "pitch": -1.204921,
+          "yaw": 0.714672,
+          "roll": 0.246003,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": -0.432992,
+          "y": -0.604322,
+          "z": -1.365504,
+          "pitch": -0.784335,
+          "yaw": 0.259239,
+          "roll": 0.050392,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "tick": 11,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -5.09304,
+          "y": 2.002481,
+          "z": -0.219366,
+          "pitch": -1.624102,
+          "yaw": -0.95547,
+          "roll": 0.043542,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 5.626658,
+          "y": 1.61491,
+          "z": 1.145888,
+          "pitch": -1.036505,
+          "yaw": 0.620402,
+          "roll": 0.33131,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": -0.513522,
+          "y": -0.421935,
+          "z": -1.116246,
+          "pitch": -0.614641,
+          "yaw": 0.254275,
+          "roll": 0.138885,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ]
+  }
+}

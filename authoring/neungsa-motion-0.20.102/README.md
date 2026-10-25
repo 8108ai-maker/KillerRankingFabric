@@ -1,0 +1,3 @@
+Runtime clips: draw_* for the first cut only, three continuously drawn cuts, drawn_guard between cuts, and sheathe after the combo stops. All clips retain native limb sizes and a locked cutting grip. Insertion aligns outside the scabbard before translating along its axis.
+
+The cutting arc is authored around the forward forearm tangent. Right and left attacks have different inclined planes; overhead preparation offsets the rigid arm beside the head and returns it for contact. View-only translation is shared by arms and scabbard through FirstPersonWeaponPose, so skin hand contact is preserved.

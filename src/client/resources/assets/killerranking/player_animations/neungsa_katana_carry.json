@@ -1,0 +1,175 @@
+{
+  "version": 3,
+  "name": "neungsa_katana_carry",
+  "author": "Killer Ranking",
+  "description": "Native shoulder pivots; both palms hold the sheathed katana without stretching or detached arms.",
+  "emote": {
+    "isLoop": "true",
+    "returnTick": 0,
+    "beginTick": 0,
+    "endTick": 24,
+    "stopTick": 24,
+    "degrees": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -5,
+          "y": 2,
+          "z": 0,
+          "pitch": -2.643071674814208,
+          "yaw": -0.2758399038240742,
+          "roll": 2.722457090835878,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 5,
+          "y": 2,
+          "z": 0,
+          "pitch": 0.2006777381440162,
+          "yaw": -0.016908835100055936,
+          "roll": -0.03177508205452027,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": -1.240704478544357,
+          "yaw": -0.29505121831830017,
+          "roll": 2.249155637990568,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "leftItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 1.4972641573878689,
+          "yaw": 0.9449372254800121,
+          "roll": 0.28287371787801124,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        }
+      },
+      {
+        "tick": 12,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -5,
+          "y": 2,
+          "z": 0,
+          "pitch": -2.643071674814208,
+          "yaw": -0.2758399038240742,
+          "roll": 2.722457090835878,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 5,
+          "y": 2,
+          "z": 0,
+          "pitch": 0.2006777381440162,
+          "yaw": -0.016908835100055936,
+          "roll": -0.03177508205452027,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": -1.240704478544357,
+          "yaw": -0.29505121831830017,
+          "roll": 2.249155637990568,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "leftItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 1.4972641573878689,
+          "yaw": 0.9449372254800121,
+          "roll": 0.28287371787801124,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        }
+      },
+      {
+        "tick": 24,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -5,
+          "y": 2,
+          "z": 0,
+          "pitch": -2.643071674814208,
+          "yaw": -0.2758399038240742,
+          "roll": 2.722457090835878,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 5,
+          "y": 2,
+          "z": 0,
+          "pitch": 0.2006777381440162,
+          "yaw": -0.016908835100055936,
+          "roll": -0.03177508205452027,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": -1.240704478544357,
+          "yaw": -0.29505121831830017,
+          "roll": 2.249155637990568,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "leftItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "pitch": 1.4972641573878689,
+          "yaw": 0.9449372254800121,
+          "roll": 0.28287371787801124,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        }
+      }
+    ]
+  }
+}

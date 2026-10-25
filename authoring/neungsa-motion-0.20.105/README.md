@@ -1,0 +1,1 @@
+Only the first slash is reauthored. A five-degree forward wrist angle keeps the sword almost collinear with the native forearm. The fixed cutting grip and the whole arm are authored together at chest height, with a level sweep instead of the old downward plane. Draw phase, shared drawn stance, other attacks, native scales, combat rules, purple VFX and holsters remain unchanged.

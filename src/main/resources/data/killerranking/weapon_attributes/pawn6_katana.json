@@ -1,0 +1,46 @@
+{
+  "attributes": {
+    "range_bonus": 0.25,
+    "category": "katana",
+    "two_handed": true,
+    "pose": "killerranking:pawn6_katana_guard",
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 100,
+        "upswing": 0.5,
+        "animation": "killerranking:pawn6_katana_slash_right",
+        "swing_sound": {
+          "id": "killerranking:swing.katana",
+          "volume": 0.7,
+          "pitch": 1.08
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 100,
+        "upswing": 0.5,
+        "animation": "killerranking:pawn6_katana_slash_left",
+        "swing_sound": {
+          "id": "killerranking:swing.katana",
+          "volume": 0.7,
+          "pitch": 1.08
+        }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1,
+        "angle": 100,
+        "upswing": 0.5,
+        "animation": "killerranking:pawn6_katana_thrust",
+        "swing_sound": {
+          "id": "killerranking:swing.katana",
+          "volume": 0.7,
+          "pitch": 1.08
+        }
+      }
+    ]
+  }
+}

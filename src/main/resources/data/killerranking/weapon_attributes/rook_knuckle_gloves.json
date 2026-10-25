@@ -1,0 +1,36 @@
+{
+  "attributes": {
+    "range_bonus": -0.5,
+    "category": "fist",
+    "two_handed": false,
+    "attacks": [
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1,
+        "angle": 60,
+        "upswing": 1.0,
+        "animation": "killerranking:rook_glove_right",
+        "swing_sound": {
+          "id": "killerranking:swing.knuckle",
+          "volume": 0.7,
+          "pitch": 0.8
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1,
+        "angle": 60,
+        "upswing": 1.0,
+        "animation": "killerranking:rook_glove_left",
+        "swing_sound": {
+          "id": "killerranking:swing.knuckle",
+          "volume": 0.7,
+          "pitch": 0.8
+        },
+        "conditions": [
+          "NOT_DUAL_WIELDING"
+        ]
+      }
+    ]
+  }
+}

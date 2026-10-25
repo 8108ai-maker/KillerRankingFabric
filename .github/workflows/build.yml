@@ -1,0 +1,47 @@
+# Build on every push, run the JUnit suite, and publish the jar to the `artifacts` branch
+# so it can be fetched with plain git (no API token needed).
+name: build
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+      - name: validate gradle wrapper
+        uses: gradle/actions/wrapper-validation@v4
+      - name: setup jdk
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+      - name: make gradle wrapper executable
+        run: chmod +x ./gradlew
+      - name: build
+        run: ./gradlew build --no-daemon --console=plain
+      - name: capture build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Artifacts
+          path: build/libs/
+      - name: publish jar to artifacts branch
+        if: github.event_name == 'push'
+        run: |
+          set -e
+          mkdir -p /tmp/art
+          cp build/libs/killerranking-*.jar /tmp/art/
+          ls -la /tmp/art
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git checkout --orphan artifacts
+          git rm -rf -q .
+          git clean -fdxq
+          cp /tmp/art/*.jar .
+          echo "$GITHUB_SHA" > BUILD_SHA
+          git add -A
+          git commit -qm "jar from $GITHUB_SHA"
+          git push -f origin artifacts

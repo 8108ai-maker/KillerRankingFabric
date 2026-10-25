@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "name": "neungsa_katana_carry_slim",
+  "author": "Killer Ranking",
+  "description": "Arms-only sheathed carry: main palm holds the hilt; opposite palm grips the saya just below its mouth. Rigid native limbs, fixed blade orientation, no head/body/leg channels. Attack and parry layers override this pose.",
+  "emote": {
+    "isLoop": "true",
+    "returnTick": 0,
+    "beginTick": 0,
+    "endTick": 24,
+    "stopTick": 24,
+    "degrees": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -3.837109152559048,
+          "y": 5.35376095236711,
+          "z": -1.8445685238019098,
+          "pitch": -2.8181219724796662,
+          "yaw": 0.3920076450999332,
+          "roll": 2.2910428724721084,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 5.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.15267147800579742,
+          "yaw": 0.005072481807838493,
+          "roll": 0.03295419741674566,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": -1.240704478544357,
+          "yaw": -0.29505121831830017,
+          "roll": 2.249155637990568
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        }
+      },
+      {
+        "tick": 12,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -3.837109152559048,
+          "y": 5.35376095236711,
+          "z": -1.8445685238019098,
+          "pitch": -2.8181219724796662,
+          "yaw": 0.3920076450999332,
+          "roll": 2.2910428724721084,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 5.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.15267147800579742,
+          "yaw": 0.005072481807838493,
+          "roll": 0.03295419741674566,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": -1.240704478544357,
+          "yaw": -0.29505121831830017,
+          "roll": 2.249155637990568
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        }
+      },
+      {
+        "tick": 24,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -3.837109152559048,
+          "y": 5.35376095236711,
+          "z": -1.8445685238019098,
+          "pitch": -2.8181219724796662,
+          "yaw": 0.3920076450999332,
+          "roll": 2.2910428724721084,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 5.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.15267147800579742,
+          "yaw": 0.005072481807838493,
+          "roll": 0.03295419741674566,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": -1.240704478544357,
+          "yaw": -0.29505121831830017,
+          "roll": 2.249155637990568
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        }
+      }
+    ]
+  }
+}

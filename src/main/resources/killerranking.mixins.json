@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "dev.killerranking.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LivingEntityMixin",
+    "MoraleDamageMixin",
+    "PlayerSurvivalMixin",
+    "RushDamageMixin",
+    "CheckmateAttackMixin",
+    "CheckmateDamageMixin",
+    "CheckmatePlayerDamageMixin",
+    "InheritedWeaponSpeedMixin",
+    "InheritedWeaponSwapMixin",
+    "RookMovementMixin",
+    "RookPacketMixin",
+    "RookPushMixin",
+    "CleaveMovementMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

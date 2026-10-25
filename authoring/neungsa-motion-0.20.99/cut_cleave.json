@@ -1,0 +1,7225 @@
+{
+  "version": 3,
+  "name": "neungsa_katana_cut_cleave",
+  "author": "Killer Ranking",
+  "description": "Independent authored one-hand cut. Straight extraction first, directional cut after clearance, align outside the saya, straight insertion last. No velocity-driven blade roll or recovery unwind. Native arm/item size.",
+  "emote": {
+    "isLoop": "false",
+    "returnTick": 0,
+    "beginTick": 0,
+    "endTick": 88,
+    "stopTick": 88,
+    "degrees": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.747667,
+          "y": -4.749308,
+          "z": 1.342664,
+          "pitch": -0.873141,
+          "yaw": 0.43154,
+          "roll": -2.412525,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.0024,
+          "z": 0.0072,
+          "pitch": 0.0008,
+          "yaw": -0.12,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.0048,
+          "yaw": -0.018,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.76,
+          "pitch": 0.0416,
+          "yaw": -0.0288,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.768,
+          "pitch": -0.032,
+          "yaw": -0.0312,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 7.0,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 1,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.746795,
+          "y": -4.753644,
+          "z": 1.339161,
+          "pitch": -0.873494,
+          "yaw": 0.431827,
+          "roll": -2.412673,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002399,
+          "z": 0.007196,
+          "pitch": 0.00081,
+          "yaw": -0.119906,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004798,
+          "yaw": -0.017986,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.76002,
+          "pitch": 0.041579,
+          "yaw": -0.028778,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.768016,
+          "pitch": -0.031984,
+          "yaw": -0.031176,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 7.125,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 2,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.74421,
+          "y": -4.766384,
+          "z": 1.328895,
+          "pitch": -0.874543,
+          "yaw": 0.432677,
+          "roll": -2.413112,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002395,
+          "z": 0.007186,
+          "pitch": 0.000839,
+          "yaw": -0.11963,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.00479,
+          "yaw": -0.017944,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.76008,
+          "pitch": 0.041517,
+          "yaw": -0.028711,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.768064,
+          "pitch": -0.031936,
+          "yaw": -0.031104,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 7.25,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 3,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.739959,
+          "y": -4.787132,
+          "z": 1.312219,
+          "pitch": -0.876272,
+          "yaw": 0.434075,
+          "roll": -2.413838,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002389,
+          "z": 0.007168,
+          "pitch": 0.000886,
+          "yaw": -0.119176,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004778,
+          "yaw": -0.017876,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.76018,
+          "pitch": 0.041413,
+          "yaw": -0.028602,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.768144,
+          "pitch": -0.031856,
+          "yaw": -0.030986,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 7.375,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 4,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.734087,
+          "y": -4.815497,
+          "z": 1.289476,
+          "pitch": -0.878664,
+          "yaw": 0.436006,
+          "roll": -2.414846,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002381,
+          "z": 0.007143,
+          "pitch": 0.000952,
+          "yaw": -0.118552,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004762,
+          "yaw": -0.017783,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.760317,
+          "pitch": 0.04127,
+          "yaw": -0.028453,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.768254,
+          "pitch": -0.031746,
+          "yaw": -0.030824,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 7.5,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 5,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.726641,
+          "y": -4.85109,
+          "z": 1.260996,
+          "pitch": -0.881706,
+          "yaw": 0.438453,
+          "roll": -2.416134,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.00237,
+          "z": 0.007111,
+          "pitch": 0.001036,
+          "yaw": -0.117764,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004741,
+          "yaw": -0.017665,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.760493,
+          "pitch": 0.041088,
+          "yaw": -0.028263,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.768394,
+          "pitch": -0.031606,
+          "yaw": -0.030619,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 7.625,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 6,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.717667,
+          "y": -4.893523,
+          "z": 1.227099,
+          "pitch": -0.885385,
+          "yaw": 0.4414,
+          "roll": -2.417701,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002358,
+          "z": 0.007073,
+          "pitch": 0.001138,
+          "yaw": -0.116818,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004715,
+          "yaw": -0.017523,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.760705,
+          "pitch": 0.040867,
+          "yaw": -0.028036,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.768564,
+          "pitch": -0.031436,
+          "yaw": -0.030373,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 7.75,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 7,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.707212,
+          "y": -4.942415,
+          "z": 1.188096,
+          "pitch": -0.889686,
+          "yaw": 0.444829,
+          "roll": -2.419545,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002343,
+          "z": 0.007028,
+          "pitch": 0.001258,
+          "yaw": -0.115721,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004686,
+          "yaw": -0.017358,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.760953,
+          "pitch": 0.040609,
+          "yaw": -0.027773,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.768763,
+          "pitch": -0.031237,
+          "yaw": -0.030087,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 7.875,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 8,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.695321,
+          "y": -4.997381,
+          "z": 1.144289,
+          "pitch": -0.8946,
+          "yaw": 0.448723,
+          "roll": -2.421668,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002326,
+          "z": 0.006977,
+          "pitch": 0.001394,
+          "yaw": -0.114478,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004652,
+          "yaw": -0.017172,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.761237,
+          "pitch": 0.040313,
+          "yaw": -0.027475,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.76899,
+          "pitch": -0.03101,
+          "yaw": -0.029764,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 8.0,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 9,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.682042,
+          "y": -5.058041,
+          "z": 1.095975,
+          "pitch": -0.900114,
+          "yaw": 0.453065,
+          "roll": -2.424071,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002307,
+          "z": 0.00692,
+          "pitch": 0.001547,
+          "yaw": -0.113097,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004613,
+          "yaw": -0.016964,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.761556,
+          "pitch": 0.039982,
+          "yaw": -0.027143,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.769245,
+          "pitch": -0.030755,
+          "yaw": -0.029405,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 8.125,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 10,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.66742,
+          "y": -5.124015,
+          "z": 1.043442,
+          "pitch": -0.906217,
+          "yaw": 0.457835,
+          "roll": -2.426755,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002285,
+          "z": 0.006856,
+          "pitch": 0.001716,
+          "yaw": -0.111582,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004571,
+          "yaw": -0.016737,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.761908,
+          "pitch": 0.039615,
+          "yaw": -0.02678,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.769527,
+          "pitch": -0.030473,
+          "yaw": -0.029011,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 8.25,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 11,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.651502,
+          "y": -5.194923,
+          "z": 0.986974,
+          "pitch": -0.9129,
+          "yaw": 0.463016,
+          "roll": -2.429725,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002262,
+          "z": 0.006787,
+          "pitch": 0.001901,
+          "yaw": -0.109942,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004525,
+          "yaw": -0.016491,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.762294,
+          "pitch": 0.039214,
+          "yaw": -0.026386,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.769836,
+          "pitch": -0.030164,
+          "yaw": -0.028585,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 8.375,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 12,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.634334,
+          "y": -5.270383,
+          "z": 0.926852,
+          "pitch": -0.920153,
+          "yaw": 0.468589,
+          "roll": -2.432982,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002237,
+          "z": 0.006712,
+          "pitch": 0.002102,
+          "yaw": -0.108182,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004474,
+          "yaw": -0.016227,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.762713,
+          "pitch": 0.038779,
+          "yaw": -0.025964,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.77017,
+          "pitch": -0.02983,
+          "yaw": -0.028127,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 8.5,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 13,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.615962,
+          "y": -5.350013,
+          "z": 0.86335,
+          "pitch": -0.927967,
+          "yaw": 0.474534,
+          "roll": -2.436532,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.00221,
+          "z": 0.006631,
+          "pitch": 0.002318,
+          "yaw": -0.106308,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.00442,
+          "yaw": -0.015946,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.763163,
+          "pitch": 0.038311,
+          "yaw": -0.025514,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.77053,
+          "pitch": -0.02947,
+          "yaw": -0.02764,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 8.625,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 14,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.596433,
+          "y": -5.433432,
+          "z": 0.796742,
+          "pitch": -0.936333,
+          "yaw": 0.480832,
+          "roll": -2.440379,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002181,
+          "z": 0.006544,
+          "pitch": 0.002549,
+          "yaw": -0.104327,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004363,
+          "yaw": -0.015649,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.763644,
+          "pitch": 0.03781,
+          "yaw": -0.025038,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.770915,
+          "pitch": -0.029085,
+          "yaw": -0.027125,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 8.75,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 15,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.575792,
+          "y": -5.520254,
+          "z": 0.7273,
+          "pitch": -0.945244,
+          "yaw": 0.487464,
+          "roll": -2.444526,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002151,
+          "z": 0.006452,
+          "pitch": 0.002795,
+          "yaw": -0.102244,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004301,
+          "yaw": -0.015337,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.764156,
+          "pitch": 0.037278,
+          "yaw": -0.024539,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.771324,
+          "pitch": -0.028676,
+          "yaw": -0.026584,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 8.875,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 16,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.554087,
+          "y": -5.610092,
+          "z": 0.655294,
+          "pitch": -0.954693,
+          "yaw": 0.494409,
+          "roll": -2.448981,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002118,
+          "z": 0.006355,
+          "pitch": 0.003054,
+          "yaw": -0.100067,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004236,
+          "yaw": -0.01501,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.764697,
+          "pitch": 0.036716,
+          "yaw": -0.024016,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.771757,
+          "pitch": -0.028243,
+          "yaw": -0.026018,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 9.0,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 17,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.531363,
+          "y": -5.702558,
+          "z": 0.580993,
+          "pitch": -0.96467,
+          "yaw": 0.501647,
+          "roll": -2.453747,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002084,
+          "z": 0.006252,
+          "pitch": 0.003328,
+          "yaw": -0.097802,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004168,
+          "yaw": -0.01467,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.765266,
+          "pitch": 0.036123,
+          "yaw": -0.023472,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.772213,
+          "pitch": -0.027787,
+          "yaw": -0.025429,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 9.125,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 18,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.507667,
+          "y": -5.797258,
+          "z": 0.504669,
+          "pitch": -0.975171,
+          "yaw": 0.509158,
+          "roll": -2.458831,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002048,
+          "z": 0.006144,
+          "pitch": 0.003615,
+          "yaw": -0.095455,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004096,
+          "yaw": -0.014318,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.765864,
+          "pitch": 0.035501,
+          "yaw": -0.022909,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.772691,
+          "pitch": -0.027309,
+          "yaw": -0.024818,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 9.25,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 19,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.483045,
+          "y": -5.893797,
+          "z": 0.426594,
+          "pitch": -0.986188,
+          "yaw": 0.516921,
+          "roll": -2.464239,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.002011,
+          "z": 0.006032,
+          "pitch": 0.003915,
+          "yaw": -0.093031,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.004021,
+          "yaw": -0.013955,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.76649,
+          "pitch": 0.034851,
+          "yaw": -0.022328,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.773192,
+          "pitch": -0.026808,
+          "yaw": -0.024188,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 9.375,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 20,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.457544,
+          "y": -5.991778,
+          "z": 0.347041,
+          "pitch": -0.997714,
+          "yaw": 0.524915,
+          "roll": -2.469975,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.001972,
+          "z": 0.005915,
+          "pitch": 0.004228,
+          "yaw": -0.090539,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.003943,
+          "yaw": -0.013581,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.767141,
+          "pitch": 0.034173,
+          "yaw": -0.021729,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.773713,
+          "pitch": -0.026287,
+          "yaw": -0.02354,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 9.5,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 21,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.431209,
+          "y": -6.090797,
+          "z": 0.266289,
+          "pitch": -1.009743,
+          "yaw": 0.533118,
+          "roll": -2.476046,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.001931,
+          "z": 0.005793,
+          "pitch": 0.004553,
+          "yaw": -0.087983,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.003862,
+          "yaw": -0.013197,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.767819,
+          "pitch": 0.033468,
+          "yaw": -0.021116,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.774255,
+          "pitch": -0.025745,
+          "yaw": -0.022876,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 9.625,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 22,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.404087,
+          "y": -6.190449,
+          "z": 0.184616,
+          "pitch": -1.022269,
+          "yaw": 0.54151,
+          "roll": -2.482457,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.001889,
+          "z": 0.005666,
+          "pitch": 0.004891,
+          "yaw": -0.08537,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.003777,
+          "yaw": -0.012806,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.768522,
+          "pitch": 0.032737,
+          "yaw": -0.020489,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.774818,
+          "pitch": -0.025182,
+          "yaw": -0.022196,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 9.75,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 23,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.376224,
+          "y": -6.290326,
+          "z": 0.102309,
+          "pitch": -1.035286,
+          "yaw": 0.55007,
+          "roll": -2.489214,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.001845,
+          "z": 0.005535,
+          "pitch": 0.00524,
+          "yaw": -0.082707,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.00369,
+          "yaw": -0.012406,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.769249,
+          "pitch": 0.031981,
+          "yaw": -0.01985,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.775399,
+          "pitch": -0.024601,
+          "yaw": -0.021504,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 9.875,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 24,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.347667,
+          "y": -6.390012,
+          "z": 0.019656,
+          "pitch": -1.048787,
+          "yaw": 0.558775,
+          "roll": -2.496322,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.0018,
+          "z": 0.0054,
+          "pitch": 0.0056,
+          "yaw": -0.08,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.0036,
+          "yaw": -0.012,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.77,
+          "pitch": 0.0312,
+          "yaw": -0.0192,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.776,
+          "pitch": -0.024,
+          "yaw": -0.0208,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 10.0,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 25,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.311405,
+          "y": -6.475505,
+          "z": -0.072935,
+          "pitch": -1.065794,
+          "yaw": 0.569492,
+          "roll": -2.505416,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.00173,
+          "z": 0.005191,
+          "pitch": 0.006156,
+          "yaw": -0.076816,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.003461,
+          "yaw": -0.011522,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.771159,
+          "pitch": 0.029995,
+          "yaw": -0.018436,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.776927,
+          "pitch": -0.023073,
+          "yaw": -0.019972,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 10.125,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 26,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.261104,
+          "y": -6.534572,
+          "z": -0.18566,
+          "pitch": -1.08927,
+          "yaw": 0.583834,
+          "roll": -2.518216,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.001616,
+          "z": 0.004848,
+          "pitch": 0.007073,
+          "yaw": -0.072762,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.003232,
+          "yaw": -0.010914,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.773069,
+          "pitch": 0.028008,
+          "yaw": -0.017463,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.778455,
+          "pitch": -0.021545,
+          "yaw": -0.018918,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 10.25,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 27,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.197823,
+          "y": -6.569395,
+          "z": -0.319578,
+          "pitch": -1.119181,
+          "yaw": 0.601363,
+          "roll": -2.534924,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.00146,
+          "z": 0.00438,
+          "pitch": 0.00832,
+          "yaw": -0.067907,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.00292,
+          "yaw": -0.010186,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.775667,
+          "pitch": 0.025307,
+          "yaw": -0.016298,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.780533,
+          "pitch": -0.019467,
+          "yaw": -0.017656,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 10.375,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 28,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.122622,
+          "y": -6.581997,
+          "z": -0.476204,
+          "pitch": -1.155569,
+          "yaw": 0.621585,
+          "roll": -2.555816,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.001267,
+          "z": 0.0038,
+          "pitch": 0.009867,
+          "yaw": -0.062317,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.002533,
+          "yaw": -0.009348,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.77889,
+          "pitch": 0.021955,
+          "yaw": -0.014956,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.783112,
+          "pitch": -0.016888,
+          "yaw": -0.016202,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 10.5,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 29,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -11.036561,
+          "y": -6.574157,
+          "z": -0.657339,
+          "pitch": -1.198541,
+          "yaw": 0.64395,
+          "roll": -2.581233,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.00104,
+          "z": 0.003119,
+          "pitch": 0.011684,
+          "yaw": -0.05606,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.002079,
+          "yaw": -0.008409,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.782674,
+          "pitch": 0.018019,
+          "yaw": -0.013454,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.786139,
+          "pitch": -0.013861,
+          "yaw": -0.014575,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 10.625,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 30,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -10.9407,
+          "y": -6.547333,
+          "z": -0.864913,
+          "pitch": -1.248254,
+          "yaw": 0.667851,
+          "roll": -2.611558,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.000783,
+          "z": 0.002348,
+          "pitch": 0.01374,
+          "yaw": -0.049203,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.001565,
+          "yaw": -0.00738,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.786958,
+          "pitch": 0.013564,
+          "yaw": -0.011809,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.789566,
+          "pitch": -0.010434,
+          "yaw": -0.012793,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 10.75,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 31,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -10.836099,
+          "y": -6.502608,
+          "z": -1.100819,
+          "pitch": -1.304896,
+          "yaw": 0.692617,
+          "roll": -2.647192,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.000499,
+          "z": 0.001498,
+          "pitch": 0.016005,
+          "yaw": -0.041813,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.000999,
+          "yaw": -0.006272,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.791677,
+          "pitch": 0.008656,
+          "yaw": -0.010035,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.793342,
+          "pitch": -0.006658,
+          "yaw": -0.010871,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 10.875,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 32,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -10.723818,
+          "y": -6.440659,
+          "z": -1.366752,
+          "pitch": -1.368649,
+          "yaw": 0.717518,
+          "roll": -2.688521,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": 0.000194,
+          "z": 0.000582,
+          "pitch": 0.018449,
+          "yaw": -0.033959,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": -0.000388,
+          "yaw": -0.005094,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.796769,
+          "pitch": 0.00336,
+          "yaw": -0.00815,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.797415,
+          "pitch": -0.002585,
+          "yaw": -0.008829,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 11.0,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 33,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -10.604917,
+          "y": -6.361755,
+          "z": -1.664058,
+          "pitch": -1.439649,
+          "yaw": 0.741763,
+          "roll": -2.735865,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.00013,
+          "z": -0.000391,
+          "pitch": 0.021042,
+          "yaw": -0.025707,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.000261,
+          "yaw": -0.003856,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.802171,
+          "pitch": -0.002258,
+          "yaw": -0.00617,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.801737,
+          "pitch": 0.001737,
+          "yaw": -0.006684,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 11.125,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 34,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -10.480455,
+          "y": -6.26578,
+          "z": -1.993589,
+          "pitch": -1.517916,
+          "yaw": 0.764512,
+          "roll": -2.789412,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.000469,
+          "z": -0.001407,
+          "pitch": 0.023753,
+          "yaw": -0.017124,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.000938,
+          "yaw": -0.002569,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.807819,
+          "pitch": -0.008132,
+          "yaw": -0.00411,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.806256,
+          "pitch": 0.006256,
+          "yaw": -0.004452,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 11.25,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 35,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -10.351492,
+          "y": -6.152293,
+          "z": -2.355575,
+          "pitch": -1.603279,
+          "yaw": 0.784897,
+          "roll": -2.849145,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.000819,
+          "z": -0.002457,
+          "pitch": 0.026553,
+          "yaw": -0.008279,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.001638,
+          "yaw": -0.001242,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.813652,
+          "pitch": -0.014198,
+          "yaw": -0.001987,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.810921,
+          "pitch": 0.010921,
+          "yaw": -0.002152,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 11.375,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 36,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -10.219089,
+          "y": -6.020607,
+          "z": -2.749507,
+          "pitch": -1.695291,
+          "yaw": 0.802052,
+          "roll": -2.914756,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.001176,
+          "z": -0.003529,
+          "pitch": 0.02941,
+          "yaw": 0.000762,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.002353,
+          "yaw": 0.000114,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.819604,
+          "pitch": -0.020389,
+          "yaw": 0.000183,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.815684,
+          "pitch": 0.015684,
+          "yaw": 0.000198,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 11.5,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 37,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -10.084305,
+          "y": -5.869906,
+          "z": -3.174056,
+          "pitch": -1.793156,
+          "yaw": 0.815159,
+          "roll": -2.985573,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.001537,
+          "z": -0.004611,
+          "pitch": 0.032295,
+          "yaw": 0.009932,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.003074,
+          "yaw": 0.00149,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.825615,
+          "pitch": -0.026639,
+          "yaw": 0.002384,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.820492,
+          "pitch": 0.020492,
+          "yaw": 0.002582,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 11.625,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 38,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -9.948199,
+          "y": -5.699367,
+          "z": -3.627012,
+          "pitch": -1.895694,
+          "yaw": 0.823504,
+          "roll": -3.060527,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.001897,
+          "z": -0.005692,
+          "pitch": 0.035177,
+          "yaw": 0.019162,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.003794,
+          "yaw": 0.002874,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.83162,
+          "pitch": -0.032884,
+          "yaw": 0.004599,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.825296,
+          "pitch": 0.025296,
+          "yaw": 0.004982,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 11.75,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 39,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -9.811833,
+          "y": -5.508306,
+          "z": -4.105253,
+          "pitch": -2.001363,
+          "yaw": 0.826537,
+          "roll": -3.138181,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.002253,
+          "z": -0.00676,
+          "pitch": 0.038027,
+          "yaw": 0.028386,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.004507,
+          "yaw": 0.004258,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.837556,
+          "pitch": -0.039058,
+          "yaw": 0.006813,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.830045,
+          "pitch": 0.030045,
+          "yaw": 0.00738,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 11.875,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 40,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -9.676266,
+          "y": -5.29633,
+          "z": -4.604754,
+          "pitch": -2.108362,
+          "yaw": 0.823927,
+          "roll": -3.216828,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.002602,
+          "z": -0.007805,
+          "pitch": 0.040813,
+          "yaw": 0.037537,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.005203,
+          "yaw": 0.00563,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.843361,
+          "pitch": -0.045095,
+          "yaw": 0.009009,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.834689,
+          "pitch": 0.034689,
+          "yaw": 0.00976,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 12.0,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 41,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -9.542557,
+          "y": -5.063483,
+          "z": -5.120623,
+          "pitch": -2.214793,
+          "yaw": 0.815592,
+          "roll": -3.294663,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.002938,
+          "z": -0.008815,
+          "pitch": 0.043506,
+          "yaw": 0.046546,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.005877,
+          "yaw": 0.006982,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.848971,
+          "pitch": -0.05093,
+          "yaw": 0.011171,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.839177,
+          "pitch": 0.039177,
+          "yaw": 0.012102,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 12.125,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 42,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -9.411766,
+          "y": -4.810384,
+          "z": -5.647176,
+          "pitch": -2.318853,
+          "yaw": 0.801707,
+          "roll": -3.369969,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.003259,
+          "z": -0.009778,
+          "pitch": 0.046075,
+          "yaw": 0.055346,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.006519,
+          "yaw": 0.008302,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.854324,
+          "pitch": -0.056497,
+          "yaw": 0.013283,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.843459,
+          "pitch": 0.043459,
+          "yaw": 0.01439,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 12.25,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 43,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -9.284955,
+          "y": -4.538356,
+          "z": -6.178028,
+          "pitch": -2.418994,
+          "yaw": 0.782678,
+          "roll": -3.441291,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.003561,
+          "z": -0.010684,
+          "pitch": 0.048491,
+          "yaw": 0.063871,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.007123,
+          "yaw": 0.009581,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.859356,
+          "pitch": -0.06173,
+          "yaw": 0.015329,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.847485,
+          "pitch": 0.047485,
+          "yaw": 0.016607,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 12.375,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 44,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -9.163181,
+          "y": -4.24952,
+          "z": -6.706223,
+          "pitch": -2.514035,
+          "yaw": 0.759094,
+          "roll": -3.507544,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.00384,
+          "z": -0.011521,
+          "pitch": 0.050722,
+          "yaw": 0.072053,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.007681,
+          "yaw": 0.010808,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.864004,
+          "pitch": -0.066564,
+          "yaw": 0.017293,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.851203,
+          "pitch": 0.051203,
+          "yaw": 0.018734,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 12.5,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 45,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -9.047506,
+          "y": -3.946872,
+          "z": -7.224369,
+          "pitch": -2.603186,
+          "yaw": 0.73167,
+          "roll": -3.568038,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.004092,
+          "z": -0.012277,
+          "pitch": 0.052739,
+          "yaw": 0.079824,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.008185,
+          "yaw": 0.011974,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.868206,
+          "pitch": -0.070934,
+          "yaw": 0.019158,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.854565,
+          "pitch": 0.054565,
+          "yaw": 0.020754,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 12.625,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 46,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -8.938988,
+          "y": -3.634324,
+          "z": -7.724791,
+          "pitch": -2.686017,
+          "yaw": 0.701195,
+          "roll": -3.622457,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.004314,
+          "z": -0.012942,
+          "pitch": 0.054511,
+          "yaw": 0.087117,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.008628,
+          "yaw": 0.013068,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.871898,
+          "pitch": -0.074774,
+          "yaw": 0.020908,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.857518,
+          "pitch": 0.057518,
+          "yaw": 0.02265,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 12.75,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 47,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -8.838689,
+          "y": -3.316707,
+          "z": -8.199676,
+          "pitch": -2.762383,
+          "yaw": 0.668478,
+          "roll": -3.670782,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.004501,
+          "z": -0.013503,
+          "pitch": 0.056008,
+          "yaw": 0.093865,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.009002,
+          "yaw": 0.01408,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.875017,
+          "pitch": -0.078017,
+          "yaw": 0.022528,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.860013,
+          "pitch": 0.060013,
+          "yaw": 0.024405,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 12.875,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 48,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -8.747667,
+          "y": -2.999753,
+          "z": -8.641225,
+          "pitch": -2.832344,
+          "yaw": 0.634321,
+          "roll": -3.713217,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.00465,
+          "z": -0.01395,
+          "pitch": 0.0572,
+          "yaw": 0.1,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.0093,
+          "yaw": 0.015,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.8775,
+          "pitch": -0.0806,
+          "yaw": 0.024,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.862,
+          "pitch": 0.062,
+          "yaw": 0.026,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 13.0,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 49,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -8.659748,
+          "y": -2.657426,
+          "z": -9.088376,
+          "pitch": -2.902661,
+          "yaw": 0.595688,
+          "roll": -3.753806,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.004781,
+          "z": -0.014342,
+          "pitch": 0.058246,
+          "yaw": 0.106164,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.009561,
+          "yaw": 0.015925,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.879679,
+          "pitch": -0.082866,
+          "yaw": 0.025479,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.863743,
+          "pitch": 0.063743,
+          "yaw": 0.027603,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 13.125,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 50,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -8.569918,
+          "y": -2.259717,
+          "z": -9.571183,
+          "pitch": -2.976578,
+          "yaw": 0.55016,
+          "roll": -3.793899,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.004912,
+          "z": -0.014736,
+          "pitch": 0.059295,
+          "yaw": 0.112782,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.009824,
+          "yaw": 0.016917,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.881865,
+          "pitch": -0.08514,
+          "yaw": 0.027068,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.865492,
+          "pitch": 0.065492,
+          "yaw": 0.029323,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 13.25,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 51,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -8.480978,
+          "y": -1.812156,
+          "z": -10.066451,
+          "pitch": -3.049756,
+          "yaw": 0.499898,
+          "roll": -3.830602,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.005038,
+          "z": -0.015114,
+          "pitch": 0.060305,
+          "yaw": 0.119461,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.010076,
+          "yaw": 0.017919,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.883968,
+          "pitch": -0.087327,
+          "yaw": 0.028671,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.867174,
+          "pitch": 0.067174,
+          "yaw": 0.03106,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 13.375,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 52,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -8.395729,
+          "y": -1.328492,
+          "z": -10.549003,
+          "pitch": -3.118834,
+          "yaw": 0.447591,
+          "roll": -3.862138,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.005154,
+          "z": -0.015461,
+          "pitch": 0.061229,
+          "yaw": 0.125806,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.010307,
+          "yaw": 0.018871,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.885894,
+          "pitch": -0.08933,
+          "yaw": 0.030194,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.868715,
+          "pitch": 0.068715,
+          "yaw": 0.03271,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 13.5,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 53,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -8.316972,
+          "y": -0.831384,
+          "z": -10.993269,
+          "pitch": -3.181217,
+          "yaw": 0.396295,
+          "roll": -3.887701,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.005253,
+          "z": -0.015759,
+          "pitch": 0.062025,
+          "yaw": 0.131426,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.010506,
+          "yaw": 0.019714,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.887553,
+          "pitch": -0.091055,
+          "yaw": 0.031542,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.870042,
+          "pitch": 0.070042,
+          "yaw": 0.034171,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 13.625,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 54,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -8.247508,
+          "y": -0.351786,
+          "z": -11.374928,
+          "pitch": -3.234777,
+          "yaw": 0.349261,
+          "roll": -3.907217,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.005331,
+          "z": -0.015993,
+          "pitch": 0.062648,
+          "yaw": 0.135927,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.010662,
+          "yaw": 0.020389,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.888851,
+          "pitch": -0.092405,
+          "yaw": 0.032623,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.871081,
+          "pitch": 0.071081,
+          "yaw": 0.035341,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 13.75,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 55,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -8.19014,
+          "y": 0.072943,
+          "z": -11.672,
+          "pitch": -3.277566,
+          "yaw": 0.309793,
+          "roll": -3.921068,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.005382,
+          "z": -0.016146,
+          "pitch": 0.063055,
+          "yaw": 0.138916,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.010764,
+          "yaw": 0.020837,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.889697,
+          "pitch": -0.093285,
+          "yaw": 0.03334,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.871758,
+          "pitch": 0.071758,
+          "yaw": 0.036118,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 13.875,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 56,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -8.147667,
+          "y": 0.401991,
+          "z": -11.864956,
+          "pitch": -3.307591,
+          "yaw": 0.281155,
+          "roll": -3.929813,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.0054,
+          "z": -0.0162,
+          "pitch": 0.0632,
+          "yaw": 0.14,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.0108,
+          "yaw": 0.021,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.89,
+          "pitch": -0.0936,
+          "yaw": 0.0336,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.872,
+          "pitch": 0.072,
+          "yaw": 0.0364,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 14.0,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 57,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -8.113952,
+          "y": 0.669996,
+          "z": -11.992658,
+          "pitch": -3.330134,
+          "yaw": 0.259174,
+          "roll": -3.93583,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.005393,
+          "z": -0.016178,
+          "pitch": 0.063141,
+          "yaw": 0.139885,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.010785,
+          "yaw": 0.020983,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.889878,
+          "pitch": -0.093473,
+          "yaw": 0.033572,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.871902,
+          "pitch": 0.071902,
+          "yaw": 0.03637,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 14.125,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 58,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -8.081003,
+          "y": 0.938604,
+          "z": -12.106415,
+          "pitch": -3.351911,
+          "yaw": 0.237571,
+          "roll": -3.941184,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.005371,
+          "z": -0.016114,
+          "pitch": 0.062971,
+          "yaw": 0.139551,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.010743,
+          "yaw": 0.020933,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.889523,
+          "pitch": -0.093104,
+          "yaw": 0.033492,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.871618,
+          "pitch": 0.071618,
+          "yaw": 0.036283,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 14.25,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 59,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -8.04884,
+          "y": 1.207131,
+          "z": -12.206711,
+          "pitch": -3.37295,
+          "yaw": 0.216381,
+          "roll": -3.945918,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.005337,
+          "z": -0.016011,
+          "pitch": 0.062696,
+          "yaw": 0.139011,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.010674,
+          "yaw": 0.020852,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.888949,
+          "pitch": -0.092507,
+          "yaw": 0.033363,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.87116,
+          "pitch": 0.07116,
+          "yaw": 0.036143,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 14.375,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 60,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -8.017482,
+          "y": 1.474891,
+          "z": -12.29406,
+          "pitch": -3.393273,
+          "yaw": 0.195632,
+          "roll": -3.950076,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.00529,
+          "z": -0.015871,
+          "pitch": 0.062323,
+          "yaw": 0.138281,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.010581,
+          "yaw": 0.020742,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.888174,
+          "pitch": -0.091701,
+          "yaw": 0.033188,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.870539,
+          "pitch": 0.070539,
+          "yaw": 0.035953,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 14.5,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 61,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.98695,
+          "y": 1.741203,
+          "z": -12.369002,
+          "pitch": -3.412901,
+          "yaw": 0.175355,
+          "roll": -3.953696,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.005233,
+          "z": -0.015698,
+          "pitch": 0.061861,
+          "yaw": 0.137375,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.010465,
+          "yaw": 0.020606,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.887211,
+          "pitch": -0.0907,
+          "yaw": 0.03297,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.869769,
+          "pitch": 0.069769,
+          "yaw": 0.035718,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 14.625,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 62,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.957264,
+          "y": 2.005384,
+          "z": -12.432103,
+          "pitch": -3.43185,
+          "yaw": 0.155576,
+          "roll": -3.956818,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.005165,
+          "z": -0.015494,
+          "pitch": 0.061317,
+          "yaw": 0.136309,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.010329,
+          "yaw": 0.020446,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.886078,
+          "pitch": -0.089521,
+          "yaw": 0.032714,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.868862,
+          "pitch": 0.068862,
+          "yaw": 0.03544,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 14.75,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 63,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.928443,
+          "y": 2.266762,
+          "z": -12.483952,
+          "pitch": -3.450135,
+          "yaw": 0.136321,
+          "roll": -3.959477,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.005087,
+          "z": -0.015262,
+          "pitch": 0.060699,
+          "yaw": 0.135095,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.010175,
+          "yaw": 0.020264,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.884789,
+          "pitch": -0.08818,
+          "yaw": 0.032423,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.867831,
+          "pitch": 0.067831,
+          "yaw": 0.035125,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 14.875,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 64,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.900508,
+          "y": 2.524667,
+          "z": -12.525164,
+          "pitch": -3.467765,
+          "yaw": 0.117615,
+          "roll": -3.96171,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.005002,
+          "z": -0.015005,
+          "pitch": 0.060012,
+          "yaw": 0.13375,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.010003,
+          "yaw": 0.020063,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.883359,
+          "pitch": -0.086694,
+          "yaw": 0.0321,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.866688,
+          "pitch": 0.066687,
+          "yaw": 0.034775,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 15.0,
+          "y": 1,
+          "z": 3
+        }
+      },
+      {
+        "tick": 65,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.873478,
+          "y": 2.778439,
+          "z": -12.556373,
+          "pitch": -3.484749,
+          "yaw": 0.099482,
+          "roll": -3.96355,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.004908,
+          "z": -0.014725,
+          "pitch": 0.059267,
+          "yaw": 0.132288,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.009817,
+          "yaw": 0.019843,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.881806,
+          "pitch": -0.085078,
+          "yaw": 0.031749,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.865444,
+          "pitch": 0.065444,
+          "yaw": 0.034395,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 15.125,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 66,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.847374,
+          "y": 3.027426,
+          "z": -12.578232,
+          "pitch": -3.501094,
+          "yaw": 0.081942,
+          "roll": -3.96503,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.004809,
+          "z": -0.014426,
+          "pitch": 0.058469,
+          "yaw": 0.130723,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.009617,
+          "yaw": 0.019608,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.880143,
+          "pitch": -0.083349,
+          "yaw": 0.031373,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.864114,
+          "pitch": 0.064114,
+          "yaw": 0.033988,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 15.25,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 67,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.822215,
+          "y": 3.270988,
+          "z": -12.591414,
+          "pitch": -3.516802,
+          "yaw": 0.065017,
+          "roll": -3.966184,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.004703,
+          "z": -0.01411,
+          "pitch": 0.057626,
+          "yaw": 0.12907,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.009406,
+          "yaw": 0.01936,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.878387,
+          "pitch": -0.081522,
+          "yaw": 0.030977,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.862709,
+          "pitch": 0.062709,
+          "yaw": 0.033558,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 15.375,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 68,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.798022,
+          "y": 3.508496,
+          "z": -12.596607,
+          "pitch": -3.531874,
+          "yaw": 0.048726,
+          "roll": -3.96704,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.004593,
+          "z": -0.013779,
+          "pitch": 0.056745,
+          "yaw": 0.127344,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.009186,
+          "yaw": 0.019102,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.876553,
+          "pitch": -0.079615,
+          "yaw": 0.030562,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.861242,
+          "pitch": 0.061242,
+          "yaw": 0.033109,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 15.5,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 69,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.774814,
+          "y": 3.739334,
+          "z": -12.594513,
+          "pitch": -3.54631,
+          "yaw": 0.033088,
+          "roll": -3.967631,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.004479,
+          "z": -0.013438,
+          "pitch": 0.055835,
+          "yaw": 0.125559,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.008959,
+          "yaw": 0.018834,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.874657,
+          "pitch": -0.077643,
+          "yaw": 0.030134,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.859725,
+          "pitch": 0.059725,
+          "yaw": 0.032645,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 15.625,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 70,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.752612,
+          "y": 3.962899,
+          "z": -12.585844,
+          "pitch": -3.560106,
+          "yaw": 0.018122,
+          "roll": -3.967984,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.004363,
+          "z": -0.013088,
+          "pitch": 0.054903,
+          "yaw": 0.12373,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.008726,
+          "yaw": 0.01856,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.872714,
+          "pitch": -0.075622,
+          "yaw": 0.029695,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.858171,
+          "pitch": 0.058171,
+          "yaw": 0.03217,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 15.75,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 71,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.731435,
+          "y": 4.178601,
+          "z": -12.571326,
+          "pitch": -3.573258,
+          "yaw": 0.003843,
+          "roll": -3.968129,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.004244,
+          "z": -0.012733,
+          "pitch": 0.053955,
+          "yaw": 0.121873,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.008489,
+          "yaw": 0.018281,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.87074,
+          "pitch": -0.073569,
+          "yaw": 0.029249,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.856592,
+          "pitch": 0.056592,
+          "yaw": 0.031687,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 15.875,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 72,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.711304,
+          "y": 4.385867,
+          "z": -12.551691,
+          "pitch": -3.58576,
+          "yaw": -0.009731,
+          "roll": -3.968092,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.004125,
+          "z": -0.012375,
+          "pitch": 0.053,
+          "yaw": 0.12,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.00825,
+          "yaw": 0.018,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.86875,
+          "pitch": -0.0715,
+          "yaw": 0.0288,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.855,
+          "pitch": 0.055,
+          "yaw": 0.0312,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 16.0,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 73,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.692237,
+          "y": 4.584137,
+          "z": -12.527676,
+          "pitch": -3.597603,
+          "yaw": -0.022586,
+          "roll": -3.9679,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.004006,
+          "z": -0.012017,
+          "pitch": 0.052045,
+          "yaw": 0.118127,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.008011,
+          "yaw": 0.017719,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.86676,
+          "pitch": -0.069431,
+          "yaw": 0.028351,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.853408,
+          "pitch": 0.053408,
+          "yaw": 0.030713,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 16.125,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 74,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.674256,
+          "y": 4.77287,
+          "z": -12.500024,
+          "pitch": -3.608777,
+          "yaw": -0.034706,
+          "roll": -3.96758,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.003887,
+          "z": -0.011662,
+          "pitch": 0.051097,
+          "yaw": 0.11627,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.007774,
+          "yaw": 0.01744,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.864786,
+          "pitch": -0.067378,
+          "yaw": 0.027905,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.851829,
+          "pitch": 0.051829,
+          "yaw": 0.03023,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 16.25,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 75,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.657381,
+          "y": 4.951538,
+          "z": -12.469478,
+          "pitch": -3.619274,
+          "yaw": -0.046078,
+          "roll": -3.967156,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.003771,
+          "z": -0.011312,
+          "pitch": 0.050165,
+          "yaw": 0.114441,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.007541,
+          "yaw": 0.017166,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.862843,
+          "pitch": -0.065357,
+          "yaw": 0.027466,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.850275,
+          "pitch": 0.050275,
+          "yaw": 0.029755,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 16.375,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 76,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.64163,
+          "y": 5.119631,
+          "z": -12.436782,
+          "pitch": -3.629081,
+          "yaw": -0.056686,
+          "roll": -3.966653,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.003657,
+          "z": -0.010971,
+          "pitch": 0.049255,
+          "yaw": 0.112656,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.007314,
+          "yaw": 0.016898,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.860947,
+          "pitch": -0.063385,
+          "yaw": 0.027038,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.848758,
+          "pitch": 0.048758,
+          "yaw": 0.029291,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 16.5,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 77,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.627025,
+          "y": 5.276657,
+          "z": -12.402679,
+          "pitch": -3.638184,
+          "yaw": -0.066518,
+          "roll": -3.966092,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.003547,
+          "z": -0.01064,
+          "pitch": 0.048374,
+          "yaw": 0.11093,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.007094,
+          "yaw": 0.01664,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.859113,
+          "pitch": -0.061478,
+          "yaw": 0.026623,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.847291,
+          "pitch": 0.047291,
+          "yaw": 0.028842,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 16.625,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 78,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.613585,
+          "y": 5.422137,
+          "z": -12.367904,
+          "pitch": -3.646573,
+          "yaw": -0.075561,
+          "roll": -3.965497,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.003441,
+          "z": -0.010324,
+          "pitch": 0.047531,
+          "yaw": 0.109277,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.006883,
+          "yaw": 0.016392,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.857357,
+          "pitch": -0.059651,
+          "yaw": 0.026227,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.845886,
+          "pitch": 0.045886,
+          "yaw": 0.028412,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 16.75,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 79,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.60133,
+          "y": 5.555614,
+          "z": -12.333189,
+          "pitch": -3.654231,
+          "yaw": -0.083802,
+          "roll": -3.964887,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.003342,
+          "z": -0.010025,
+          "pitch": 0.046733,
+          "yaw": 0.107712,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.006683,
+          "yaw": 0.016157,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.855694,
+          "pitch": -0.057922,
+          "yaw": 0.025851,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.844556,
+          "pitch": 0.044556,
+          "yaw": 0.028005,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 16.875,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 80,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.590281,
+          "y": 5.676646,
+          "z": -12.299258,
+          "pitch": -3.661145,
+          "yaw": -0.091229,
+          "roll": -3.964283,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.003248,
+          "z": -0.009745,
+          "pitch": 0.045988,
+          "yaw": 0.10625,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.006497,
+          "yaw": 0.015938,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.854141,
+          "pitch": -0.056306,
+          "yaw": 0.0255,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.843313,
+          "pitch": 0.043313,
+          "yaw": 0.027625,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 17.0,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 81,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.580456,
+          "y": 5.784808,
+          "z": -12.266824,
+          "pitch": -3.667301,
+          "yaw": -0.097828,
+          "roll": -3.963702,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.003163,
+          "z": -0.009488,
+          "pitch": 0.045301,
+          "yaw": 0.104905,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.006325,
+          "yaw": 0.015736,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.852711,
+          "pitch": -0.05482,
+          "yaw": 0.025177,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.842169,
+          "pitch": 0.042169,
+          "yaw": 0.027275,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 17.125,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 82,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.571877,
+          "y": 5.879695,
+          "z": -12.236586,
+          "pitch": -3.672683,
+          "yaw": -0.103588,
+          "roll": -3.963161,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.003085,
+          "z": -0.009256,
+          "pitch": 0.044683,
+          "yaw": 0.103691,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.006171,
+          "yaw": 0.015554,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.851422,
+          "pitch": -0.053479,
+          "yaw": 0.024886,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.841138,
+          "pitch": 0.041138,
+          "yaw": 0.02696,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 17.25,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 83,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.564563,
+          "y": 5.960918,
+          "z": -12.209233,
+          "pitch": -3.677276,
+          "yaw": -0.108496,
+          "roll": -3.962675,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.003017,
+          "z": -0.009052,
+          "pitch": 0.044139,
+          "yaw": 0.102625,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.006035,
+          "yaw": 0.015394,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.850289,
+          "pitch": -0.0523,
+          "yaw": 0.02463,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.840231,
+          "pitch": 0.040231,
+          "yaw": 0.026682,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 17.375,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 84,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.558534,
+          "y": 6.028108,
+          "z": -12.185437,
+          "pitch": -3.681066,
+          "yaw": -0.11254,
+          "roll": -3.962257,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.00296,
+          "z": -0.008879,
+          "pitch": 0.043677,
+          "yaw": 0.101719,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.005919,
+          "yaw": 0.015258,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.849326,
+          "pitch": -0.051299,
+          "yaw": 0.024412,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.839461,
+          "pitch": 0.039461,
+          "yaw": 0.026447,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 17.5,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 85,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.55381,
+          "y": 6.080915,
+          "z": -12.165851,
+          "pitch": -3.684038,
+          "yaw": -0.115708,
+          "roll": -3.961918,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.002913,
+          "z": -0.008739,
+          "pitch": 0.043304,
+          "yaw": 0.100989,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.005826,
+          "yaw": 0.015148,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.848551,
+          "pitch": -0.050493,
+          "yaw": 0.024237,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.83884,
+          "pitch": 0.03884,
+          "yaw": 0.026257,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 17.625,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 86,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.55041,
+          "y": 6.119008,
+          "z": -12.151112,
+          "pitch": -3.686178,
+          "yaw": -0.117986,
+          "roll": -3.961669,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.002879,
+          "z": -0.008636,
+          "pitch": 0.043029,
+          "yaw": 0.100449,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.005757,
+          "yaw": 0.015067,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.847977,
+          "pitch": -0.049896,
+          "yaw": 0.024108,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.838382,
+          "pitch": 0.038382,
+          "yaw": 0.026117,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 17.75,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 87,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.548356,
+          "y": 6.142074,
+          "z": -12.141836,
+          "pitch": -3.687472,
+          "yaw": -0.119363,
+          "roll": -3.961516,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.002857,
+          "z": -0.008572,
+          "pitch": 0.042859,
+          "yaw": 0.100115,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.005715,
+          "yaw": 0.015017,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.847622,
+          "pitch": -0.049527,
+          "yaw": 0.024028,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.838098,
+          "pitch": 0.038098,
+          "yaw": 0.02603,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 17.875,
+          "y": 0,
+          "z": 3
+        }
+      },
+      {
+        "tick": 88,
+        "easing": "LINEAR",
+        "rightArm": {
+          "x": -7.547667,
+          "y": 6.149824,
+          "z": -12.138616,
+          "pitch": -3.687906,
+          "yaw": -0.119825,
+          "roll": -3.961464,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "leftArm": {
+          "x": 4.903621,
+          "y": 0.565933,
+          "z": 0.220781,
+          "pitch": -0.152671,
+          "yaw": 0.005072,
+          "roll": 0.032954,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1
+        },
+        "rightItem": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "pitch": 1.900888,
+          "yaw": 0.295051,
+          "roll": 0.892437
+        },
+        "body": {
+          "x": 0,
+          "y": -0.00285,
+          "z": -0.00855,
+          "pitch": 0.0428,
+          "yaw": 0.1,
+          "roll": 0
+        },
+        "torso": {
+          "pitch": 0.0057,
+          "yaw": 0.015,
+          "roll": 0
+        },
+        "rightLeg": {
+          "x": -2,
+          "y": 12,
+          "z": -0.8475,
+          "pitch": -0.0494,
+          "yaw": 0.024,
+          "roll": 0
+        },
+        "leftLeg": {
+          "x": 2,
+          "y": 12,
+          "z": 0.838,
+          "pitch": 0.038,
+          "yaw": 0.026,
+          "roll": 0
+        },
+        "nightBatTrail": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaSheath": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "neungsaCut": {
+          "x": 18.0,
+          "y": 0,
+          "z": 3
+        }
+      }
+    ]
+  }
+}
