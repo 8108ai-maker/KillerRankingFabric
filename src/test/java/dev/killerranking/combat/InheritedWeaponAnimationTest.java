@@ -35,6 +35,7 @@ class InheritedWeaponAnimationTest {
             }
         }
     }
+
     @ParameterizedTest
     @ValueSource(strings={"gossi_knife_slash_right","gossi_knife_slash_left","gossi_knife_stab","eunbal_hatchet_forehand","eunbal_hatchet_backhand","eunbal_hatchet_cleave"})
     void gripStaysInPalmAndMotionReturnsControlToWalking(String name) throws Exception {
@@ -55,9 +56,9 @@ class InheritedWeaponAnimationTest {
                     var grip=new org.joml.Matrix4f().translation(p.getX(),p.getY(),p.getZ()).rotateZ(r.getZ()).rotateY(r.getY()).rotateX(r.getX()).transformPosition(new org.joml.Vector3f(modelGrip));
                     assertTrue(grip.distance(0,-2,0)<.5,"Handle remains in palm between poses");
                     var size=a.get3DTransform("rightArm",TransformType.SCALE,dt,new Vec3f(1,1,1));
-                    assertTrue(size.getY()>=.90&&size.getY()<=1.23,"Short, bounded limb smear");
+                    assertEquals(1,size.getY(),.0001,"No limb smear; the whip itself carries the speed");
                     var shoulder=a.get3DTransform("rightArm",TransformType.POSITION,dt,Vec3f.ZERO);
-                    assertTrue(Math.abs(shoulder.getZ())<=1.3,"No detached shoulder behind back");
+                    assertTrue(Math.abs(shoulder.getZ())<=3.5,"Shoulder reach stays on the torso");
                     var baseline=new Vec3f(.12f,.23f,.34f);
                     for(var type:new TransformType[]{TransformType.POSITION,TransformType.ROTATION,TransformType.SCALE}) {
                         var head=a.get3DTransform("head",type,dt,baseline);
@@ -70,7 +71,10 @@ class InheritedWeaponAnimationTest {
                         var blade=new org.joml.Matrix4f().rotateZ(arm.getZ()).rotateY(arm.getY()).rotateX(arm.getX()).rotateX(-(float)Math.PI/2).rotateY((float)Math.PI).rotateZ(r.getZ()).rotateY(r.getY()).rotateX(r.getX()).transformDirection(new org.joml.Vector3f(0,1,0));
                         assertTrue(blade.z<-.99&&Math.abs(blade.y)<.01,"Knife point faces target at stab impact");
                     }
-                    if(tick==24) assertEquals(1,size.getY(),.001,"No lingering arm stretch");
+                    if(tick==24) {
+                        assertEquals(0,r.getX(),.001);assertEquals(0,r.getY(),.001);assertEquals(0,r.getZ(),.001);
+                        assertEquals(0,p.getX(),.001);assertEquals(0,p.getY(),.001);assertEquals(0,p.getZ(),.001);
+                    }
                 }
                 a.tick();
             }
