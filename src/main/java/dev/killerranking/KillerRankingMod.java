@@ -92,6 +92,7 @@ public final class KillerRankingMod implements ModInitializer {
     public static final net.minecraft.core.particles.SimpleParticleType SPIRIT_AURA = net.fabricmc.fabric.api.particle.v1.FabricParticleTypes.simple();
     public static final net.minecraft.core.particles.SimpleParticleType NEUNGSA_CUT = net.fabricmc.fabric.api.particle.v1.FabricParticleTypes.simple();
     public static final net.minecraft.core.particles.SimpleParticleType BISHOP_SLASH = net.fabricmc.fabric.api.particle.v1.FabricParticleTypes.simple();
+    public static final net.minecraft.core.particles.SimpleParticleType SLASH_SHARD = net.fabricmc.fabric.api.particle.v1.FabricParticleTypes.simple(true);
     public static final dev.killerranking.combat.TraitVisualService TRAIT_VISUALS = new dev.killerranking.combat.TraitVisualService();
 	public static final dev.killerranking.combat.HuntingMarkService HUNTING_MARKS = new dev.killerranking.combat.HuntingMarkService();
 	public static final ParryService PARRY = new ParryService();
@@ -157,6 +158,7 @@ public final class KillerRankingMod implements ModInitializer {
         Registry.register(BuiltInRegistries.PARTICLE_TYPE, id("tteokbal_aura"), SPIRIT_AURA);
         Registry.register(BuiltInRegistries.PARTICLE_TYPE, id("bishop_slash"), BISHOP_SLASH);
         Registry.register(BuiltInRegistries.PARTICLE_TYPE,id("neungsa_cut"),NEUNGSA_CUT);
+        Registry.register(BuiltInRegistries.PARTICLE_TYPE,id("slash_shard"),SLASH_SHARD);
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(entries -> entries.accept(PHONE));
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(entries -> {
             entries.accept(NIGHT_BARBED_BAT);

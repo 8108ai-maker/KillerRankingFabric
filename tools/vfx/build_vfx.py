@@ -92,102 +92,77 @@ def trail_strip(name, w, h, rows_fn):
 
 
 def build_trails():
-    # --- katana (pawn 6): thin, clean, white-steel with icy edge
-    def katana(i):
-        rng = np.random.default_rng(100 + i)
-        age = i / (ROWS - 1)
-        return streak_row(128, 32, core=(255, 255, 255, 255), edge=(214, 236, 255, 230), glow=(140, 190, 240, 120),
-                          head_len=18, body_len=int(120 - 40 * age), thickness=int(10 - 5 * age) + 2, taper=0.15,
-                          frag=age * 0.9, rng=rng, jag=0.0, tip_bias=0.4, dots=int(10 * age))
-    trail_strip("trail_katana", 128, 32, katana)
+    # Rows are stretched over the whole ribbon width in game, so `thickness` is the fraction of
+    # the sweep that is painted: bold, nearly full-width on the newest rows, then breaking apart.
+    def rowset(name, w, h, core, edge, glow, *, th0, th_end, body0, body_end, head, taper, jag, tip_bias, seed, extra=None):
+        def row(i):
+            rng = np.random.default_rng(seed + i)
+            age = i / (ROWS - 1)
+            img = streak_row(w, h, core=core, edge=edge, glow=glow, head_len=int(head * (1 - 0.5 * age)),
+                             body_len=int(body0 + (body_end - body0) * age), thickness=int(th0 + (th_end - th0) * age),
+                             taper=taper, frag=age * 0.85, rng=rng, jag=jag, tip_bias=tip_bias, dots=int(18 * age))
+            if extra:
+                extra(img, rng, age)
+            return img
+        trail_strip(name, w, h, row)
 
-    # --- saw knife: blood-red, jagged tooth edge, drips
-    def saw(i):
-        rng = np.random.default_rng(200 + i)
-        age = i / (ROWS - 1)
-        img = streak_row(128, 32, core=(255, 96, 72, 255), edge=(190, 28, 32, 235), glow=(110, 10, 20, 130),
-                         head_len=12, body_len=int(118 - 30 * age), thickness=int(12 - 5 * age) + 3, taper=0.3,
-                         frag=age * 0.8, rng=rng, jag=1.2, tip_bias=0.2, dots=int(16 * age))
-        # teeth on the tip edge
-        for x in range(20, 128, 5):
-            if rng.random() < 0.8 - age * 0.5:
-                y = 9 - (x % 10 == 0)
-                put(img, x, y, (255, 150, 120, 255), 0.9)
-                put(img, x, y - 1, (255, 200, 180, 255), 0.7)
-        # drips downward with age
-        for _ in range(int(6 * age)):
+    # --- pawn 6 katana: white core, icy edge, thin bright highlight along the tip
+    def katana_extra(img, rng, age):
+        for x in range(30, 128):
+            if rng.random() < 0.7 - age * 0.5:
+                put(img, x, 7, (255, 255, 255, 255), 0.9)
+    rowset("trail_katana", 128, 32, (255, 255, 255, 255), (170, 222, 255, 245), (90, 160, 240, 150),
+           th0=24, th_end=9, body0=122, body_end=80, head=22, taper=0.22, jag=0.0, tip_bias=0.25, seed=100, extra=katana_extra)
+
+    # --- saw knife: blood red, serrated tip edge, drips
+    def saw_extra(img, rng, age):
+        for x in range(16, 128, 4):
+            if rng.random() < 0.85 - age * 0.5:
+                put(img, x, 4, (255, 170, 150, 255), 0.95); put(img, x, 3, (255, 220, 210, 255), 0.7)
+        for _ in range(int(8 * age)):
             x = rng.integers(30, 126)
-            for k in range(rng.integers(2, 6)):
-                put(img, x, 22 + k, (160, 16, 24, 255), 0.8 - k * 0.12)
-        return img
-    trail_strip("trail_saw", 128, 32, saw)
+            for k in range(rng.integers(2, 7)):
+                put(img, x, 24 + k, (170, 14, 26, 255), 0.85 - k * 0.1)
+    rowset("trail_saw", 128, 32, (255, 120, 96, 255), (214, 28, 40, 245), (120, 8, 22, 150),
+           th0=26, th_end=10, body0=122, body_end=86, head=14, taper=0.35, jag=1.0, tip_bias=0.1, seed=200, extra=saw_extra)
 
-    # --- dagger / knife: very thin, short, silver with violet tint
-    def dagger(i):
-        rng = np.random.default_rng(300 + i)
-        age = i / (ROWS - 1)
-        return streak_row(128, 32, core=(255, 255, 255, 255), edge=(222, 210, 255, 220), glow=(150, 120, 220, 110),
-                          head_len=14, body_len=int(90 - 35 * age), thickness=int(5 - 2 * age) + 1, taper=0.1,
-                          frag=age * 1.0, rng=rng, jag=0.0, tip_bias=0.45, dots=int(8 * age))
-    trail_strip("trail_dagger", 128, 32, dagger)
+    # --- dagger / knife: silver with violet haze, narrower but still bold
+    rowset("trail_dagger", 128, 32, (255, 255, 255, 255), (228, 214, 255, 235), (150, 110, 230, 130),
+           th0=16, th_end=5, body0=100, body_end=56, head=18, taper=0.15, jag=0.0, tip_bias=0.35, seed=300)
 
-    # --- hatchet: thick, chunky amber with dark red core (madness)
-    def hatchet(i):
-        rng = np.random.default_rng(400 + i)
-        age = i / (ROWS - 1)
-        img = streak_row(128, 32, core=(255, 214, 120, 255), edge=(236, 120, 48, 235), glow=(150, 40, 30, 130),
-                         head_len=10, body_len=int(100 - 25 * age), thickness=int(16 - 6 * age) + 4, taper=0.45,
-                         frag=age * 0.7, rng=rng, jag=1.0, tip_bias=0.1, dots=int(12 * age))
-        # embers
-        for _ in range(int(6 + 10 * age)):
-            x = rng.integers(40, 128); y = rng.integers(4, 28)
-            put(img, x, y, (255, 180, 80, 255), rng.uniform(0.4, 0.9))
-        return img
-    trail_strip("trail_hatchet", 128, 32, hatchet)
+    # --- hatchet: amber over dark red, chunky, embers
+    def hatchet_extra(img, rng, age):
+        for _ in range(int(8 + 14 * age)):
+            put(img, rng.integers(30, 128), rng.integers(2, 30), (255, 190, 90, 255), rng.uniform(0.5, 1.0))
+    rowset("trail_hatchet", 128, 32, (255, 226, 140, 255), (240, 120, 40, 245), (150, 36, 28, 150),
+           th0=28, th_end=12, body0=112, body_end=78, head=12, taper=0.45, jag=0.9, tip_bias=0.05, seed=400, extra=hatchet_extra)
 
-    # --- bat: cream dust, wide and soft, with wire sparks
-    def bat(i):
-        rng = np.random.default_rng(500 + i)
-        age = i / (ROWS - 1)
-        img = streak_row(128, 32, core=(255, 248, 226, 235), edge=(236, 220, 180, 200), glow=(200, 180, 140, 110),
-                         head_len=8, body_len=int(118 - 20 * age), thickness=int(18 - 8 * age) + 4, taper=0.5,
-                         frag=age * 0.75, rng=rng, jag=1.4, tip_bias=0.0, dots=int(20 * age))
-        for _ in range(int(5 + 6 * age)):
-            x = rng.integers(60, 128); y = rng.integers(3, 29)
-            put(img, x, y, (255, 255, 255, 255), rng.uniform(0.5, 1.0))
-        return img
-    trail_strip("trail_bat", 128, 32, bat)
+    # --- bat: cream dust, widest, wire sparks
+    def bat_extra(img, rng, age):
+        for _ in range(int(6 + 8 * age)):
+            put(img, rng.integers(50, 128), rng.integers(2, 30), (255, 255, 255, 255), rng.uniform(0.6, 1.0))
+    rowset("trail_bat", 128, 32, (255, 250, 232, 240), (240, 224, 186, 215), (200, 180, 140, 120),
+           th0=30, th_end=12, body0=124, body_end=96, head=10, taper=0.5, jag=1.3, tip_bias=0.0, seed=500, extra=bat_extra)
 
-    # --- fist: short translucent cream-green puff (tteokbal), used for bare-hand strokes
-    def fist(i):
-        rng = np.random.default_rng(600 + i)
-        age = i / (ROWS - 1)
-        return streak_row(128, 32, core=(240, 255, 232, 210), edge=(170, 230, 170, 170), glow=(90, 160, 110, 90),
-                          head_len=6, body_len=int(70 - 30 * age), thickness=int(14 - 6 * age) + 4, taper=0.6,
-                          frag=age * 0.9, rng=rng, jag=1.6, tip_bias=0.0, dots=int(14 * age))
-    trail_strip("trail_fist", 128, 32, fist)
+    # --- fist: short cream-green puff
+    rowset("trail_fist", 128, 32, (244, 255, 236, 220), (178, 236, 178, 185), (90, 170, 115, 100),
+           th0=24, th_end=8, body0=76, body_end=40, head=8, taper=0.6, jag=1.5, tip_bias=0.0, seed=600)
 
-    # --- generic fallback (kept name): cream, used by anything without its own style
-    def generic(i):
-        rng = np.random.default_rng(700 + i)
-        age = i / (ROWS - 1)
-        return streak_row(128, 32, core=(255, 252, 240, 255), edge=(240, 228, 190, 220), glow=(190, 170, 130, 110),
-                          head_len=12, body_len=int(118 - 30 * age), thickness=int(12 - 5 * age) + 3, taper=0.3,
-                          frag=age * 0.8, rng=rng, jag=0.6, tip_bias=0.2, dots=int(14 * age))
-    trail_strip("weapon_swing_strip", 128, 32, generic)
+    # --- generic fallback
+    rowset("weapon_swing_strip", 128, 32, (255, 252, 240, 255), (242, 230, 192, 225), (190, 170, 130, 115),
+           th0=26, th_end=10, body0=122, body_end=84, head=14, taper=0.3, jag=0.6, tip_bias=0.2, seed=700)
 
     # --- neungsa katana: violet, rows 0..3 grow with stroke length, rows 4..7 fade
     def neungsa(i):
         rng = np.random.default_rng(800 + i)
+        core, edge, glow = (248, 236, 255, 255), (184, 112, 255, 245), (100, 40, 200, 160)
         if i < 4:
             grow = (i + 1) / 4
-            body = int(60 + 190 * grow)
-            return streak_row(256, 64, core=(246, 232, 255, 255), edge=(176, 108, 255, 240), glow=(96, 40, 190, 150),
-                              head_len=36, body_len=body, thickness=22, taper=0.08, frag=0.0, rng=rng, jag=0.0, tip_bias=0.35, dots=0)
+            return streak_row(256, 64, core=core, edge=edge, glow=glow, head_len=40, body_len=int(60 + 190 * grow),
+                              thickness=48, taper=0.1, frag=0.0, rng=rng, jag=0.0, tip_bias=0.3, dots=0)
         age = (i - 4) / 3
-        return streak_row(256, 64, core=(246, 232, 255, 255), edge=(176, 108, 255, 240), glow=(96, 40, 190, 150),
-                          head_len=int(30 - 20 * age), body_len=int(250 - 120 * age), thickness=int(22 - 12 * age) + 2, taper=0.08,
-                          frag=0.3 + age * 0.7, rng=rng, jag=0.0, tip_bias=0.35, dots=int(30 * age))
+        return streak_row(256, 64, core=core, edge=edge, glow=glow, head_len=int(34 - 24 * age), body_len=int(250 - 120 * age),
+                          thickness=int(48 - 30 * age) + 2, taper=0.1, frag=0.3 + age * 0.7, rng=rng, jag=0.0, tip_bias=0.3, dots=int(34 * age))
     trail_strip("neungsa_swing_strip", 256, 64, neungsa)
 
 

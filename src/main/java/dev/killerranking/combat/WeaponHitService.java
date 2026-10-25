@@ -35,7 +35,7 @@ public final class WeaponHitService {
         KillerRankingSounds.play(level, contact, family.hit, family.volume, KillerRankingSounds.vary(attacker, family.pitch, 0.06f));
         if (crit) KillerRankingSounds.play(level, contact, KillerRankingSounds.HIT_CRIT, 0.7f, KillerRankingSounds.vary(attacker, 1.0f, 0.05f));
 
-        var payload = new WeaponHitPayload(attacker.getUUID(), family.ordinal(), contact.x, contact.y, contact.z, attacker.getYRot(), crit, lethal);
+        var payload = new WeaponHitPayload(attacker.getUUID(), family.ordinal(), contact.x, contact.y, contact.z, attacker.getYRot(), damageTaken, crit, lethal);
         for (ServerPlayer viewer : level.players()) {
             if (viewer.distanceToSqr(contact) <= VIEW_RANGE_SQ && ServerPlayNetworking.canSend(viewer, WeaponHitPayload.TYPE)) ServerPlayNetworking.send(viewer, payload);
         }

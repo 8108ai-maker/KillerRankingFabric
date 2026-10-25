@@ -113,12 +113,15 @@ public final class NightBatTrail {
         }
         if(!Double.isFinite(tip.x+tip.y+tip.z)||tip.distanceToSqr(c.player().position())>36) return;
         var style=TrailStyle.of(item.getItem());
-        if(style.tipExtension>0) {
-            // Chunky weapons read wider than their model: push the ribbon's outer edge past the tip.
+        Vec3 modelTip=tip;
+        {
+            // The sweep reads far larger than the model: push the outer edge past the tip and the
+            // inner edge back toward the hand, so a 100° swing becomes a 2–3 block pixel arc.
             var blade=tip.subtract(inner);double length=blade.length();
-            if(length>1e-4) tip=tip.add(blade.scale(style.tipExtension/length));
+            if(length>1e-4) { var unit=blade.scale(1/length);tip=tip.add(unit.scale(style.tipExtension));inner=inner.subtract(unit.scale(style.innerPull)); }
         }
         OWNERS.put(c.player().getUUID(),c.player());
+        shards(key,style,modelTip,inner,tip);
         if(c.player() instanceof dev.killerranking.entity.BishopFollower||CheckmateVfx.active(c.player().getUUID())||CleaveVfx.active(c.player().getUUID())||MadnessLeapVfx.active(c.player().getUUID()))
             history.sampleStroke(time,inner,tip,c.player().getPosition(delta),true,(int)Math.ceil(Math.abs(marker.getX())));
         else history.sample(time,inner,tip,c.player().getPosition(delta),true);
@@ -132,6 +135,26 @@ public final class NightBatTrail {
         var inner=point(matrix,center/16,7.5f/16,0);var tip=point(matrix,center/16,11.5f/16,0);
         if(!Double.isFinite(tip.x+tip.y+tip.z)||tip.distanceToSqr(player.position())>36)return;
         OWNERS.put(player.getUUID(),player);history.sampleStroke(time,inner,tip,player.getPosition(delta),true,(int)Math.ceil(Math.abs(marker.getX())));
+    }
+    private static final Map<Key,Vec3> LAST_TIP=new HashMap<>();
+    private static final Map<Key,Double> LAST_SHARD=new HashMap<>();
+    /** Throw weapon-coloured shards off the moving blade: a few per accepted sample, along its motion. */
+    private static void shards(Key key,TrailStyle style,Vec3 modelTip,Vec3 inner,Vec3 tip) {
+        double lastTime=LAST_SHARD.getOrDefault(key,-1d);
+        if(lastTime>=0&&time-lastTime<.25) return;
+        var last=LAST_TIP.put(key,modelTip);
+        LAST_SHARD.put(key,time);
+        if(last==null||lastTime<0||time-lastTime>3) return;
+        var motion=modelTip.subtract(last);
+        double travel=motion.length();
+        if(travel<.05||travel>2.5) return;
+        var dir=motion.scale(1/travel);
+        var span=tip.subtract(inner);
+        for(int i=0;i<style.shardsPerSample;i++) {
+            double u=.35+Math.random()*.65;
+            var at=inner.add(span.scale(u));
+            SlashShardParticle.burst(at,dir,1,style.shardColor,.10f+(float)travel*.08f,.06f,.07f,14);
+        }
     }
     private static Vec3 point(Matrix4f matrix,float x,float y,float z) {
         var p=matrix.transformPosition(new Vector3f(x,y,z));return new Vec3(p.x+camera.x,p.y+camera.y,p.z+camera.z);
@@ -215,6 +238,6 @@ public final class NightBatTrail {
     private static boolean supported(ItemStack item) {
         return item.is(KillerRankingMod.SALMOSA_MID_DAGGER)||item.is(KillerRankingMod.BISHOP_DAGGER)||item.is(KillerRankingMod.NIGHT_BARBED_BAT)||item.is(KillerRankingMod.GOSSI_INHERITED_KNIFE)||item.is(KillerRankingMod.EUNBAL_HATCHET)||item.is(KillerRankingMod.PAWN6_KATANA)||item.is(KillerRankingMod.NEUNGSA_KATANA)||item.is(KillerRankingMod.YUHYEOLMOKI_SAW_KNIFE);
     }
-    private static void clear() { HISTORY.clear();OWNERS.clear();SkillArmTrails.clear();capture=null;frameReady=false;world=null; }
+    private static void clear() { HISTORY.clear();OWNERS.clear();LAST_TIP.clear();LAST_SHARD.clear();SkillArmTrails.clear();capture=null;frameReady=false;world=null; }
     private NightBatTrail() { }
 }

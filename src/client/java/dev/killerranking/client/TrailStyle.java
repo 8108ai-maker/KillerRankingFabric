@@ -6,29 +6,35 @@ import net.minecraft.world.item.Item;
 
 /**
  * Per-weapon look of the pixel swing ribbon. Each strip has eight rows (newest first);
- * {@link NightBatTrail} picks the row by age and this style decides texture, how long the
- * ribbon lingers, how wide it is drawn beyond the blade and how bright it starts.
+ * {@link NightBatTrail} picks the row by age and this style decides texture, how far the
+ * ribbon reaches past the blade and toward the hand, its brightness and its shard colour.
  */
 public enum TrailStyle {
-    GENERIC("weapon_swing_strip", 1.0f, 0.0f, 0.9f),
-    KATANA("trail_katana", 0.85f, 0.10f, 0.95f),
-    SAW("trail_saw", 1.15f, 0.06f, 0.95f),
-    DAGGER("trail_dagger", 0.7f, 0.0f, 0.9f),
-    HATCHET("trail_hatchet", 1.2f, 0.12f, 0.95f),
-    BAT("trail_bat", 1.3f, 0.16f, 0.9f),
-    FIST("trail_fist", 0.8f, 0.0f, 0.8f),
-    NEUNGSA("neungsa_swing_strip", 1.0f, 0.0f, 0.9f);
+    //                 texture               tipExt  innerPull alpha  shardRGB  shards/sample
+    GENERIC("weapon_swing_strip",  0.70f, 0.25f, 1.0f, 0xFFF4DC, 2),
+    KATANA ("trail_katana",        1.15f, 0.35f, 1.0f, 0xCFEBFF, 3),
+    SAW    ("trail_saw",           0.85f, 0.30f, 1.0f, 0xFF4A3C, 3),
+    DAGGER ("trail_dagger",        0.55f, 0.20f, 1.0f, 0xE6DCFF, 2),
+    HATCHET("trail_hatchet",       0.80f, 0.35f, 1.0f, 0xFFB450, 3),
+    BAT    ("trail_bat",           0.95f, 0.40f, 1.0f, 0xFFF6DE, 2),
+    FIST   ("trail_fist",          0.45f, 0.15f, 0.95f, 0xB9F0B4, 2),
+    NEUNGSA("neungsa_swing_strip", 0.60f, 0.25f, 1.0f, 0xC89CFF, 3);
 
     public final ResourceLocation texture;
-    /** Multiplies the base ribbon lifetime: heavy weapons leave longer dust. */
-    public final float lifetime;
-    /** Extra width past the blade tip, in blocks, so chunky weapons read wider. */
+    /** Extra reach past the blade tip, in blocks, so the sweep reads far larger than the model. */
     public final float tipExtension;
+    /** How far the ribbon's inner edge is pulled back toward the hand, in blocks (widens the sweep). */
+    public final float innerPull;
     public final float alpha;
+    /** Colour of the pixel shards thrown off the blade and from hits. */
+    public final int shardColor;
+    /** Shards spawned per accepted trail sample while striking. */
+    public final int shardsPerSample;
 
-    TrailStyle(String file, float lifetime, float tipExtension, float alpha) {
+    TrailStyle(String file, float tipExtension, float innerPull, float alpha, int shardColor, int shardsPerSample) {
         this.texture = KillerRankingMod.id("textures/vfx/" + file + ".png");
-        this.lifetime = lifetime; this.tipExtension = tipExtension; this.alpha = alpha;
+        this.tipExtension = tipExtension; this.innerPull = innerPull; this.alpha = alpha;
+        this.shardColor = shardColor; this.shardsPerSample = shardsPerSample;
     }
 
     public static TrailStyle of(Item item) {
@@ -40,5 +46,16 @@ public enum TrailStyle {
         if (item == KillerRankingMod.EUNBAL_HATCHET) return HATCHET;
         if (item == KillerRankingMod.NIGHT_BARBED_BAT) return BAT;
         return GENERIC;
+    }
+
+    public static TrailStyle of(dev.killerranking.combat.WeaponFamily family) {
+        return switch (family) {
+            case BLADE -> KATANA;
+            case SAW -> SAW;
+            case BLUNT -> BAT;
+            case FIST, KNUCKLE -> FIST;
+            case HATCHET -> HATCHET;
+            case PIERCE -> DAGGER;
+        };
     }
 }

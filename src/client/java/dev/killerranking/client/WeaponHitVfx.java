@@ -63,12 +63,21 @@ public final class WeaponHitVfx {
         // Slashes lean ±25° around their diagonal and mirror per swing; bursts only jitter.
         float roll = slash ? (left ? 1 : -1) * (20f + seed * 25f) + (left ? 0 : 90) : seed * 360f;
         float size = switch (family) {
-            case BLUNT, HATCHET -> 1.15f;
-            case KNUCKLE -> 1.0f;
-            case PIERCE, FIST -> 0.75f;
-            default -> 0.95f;
+            case BLUNT, HATCHET -> 1.7f;
+            case KNUCKLE -> 1.5f;
+            case PIERCE, FIST -> 1.15f;
+            default -> 1.45f;
         } * (p.crit() ? 1.3f : 1f);
-        IMPACTS.add(new Impact(p.attacker(), family, new Vec3(p.x(), p.y(), p.z()), roll, size, p.lethal(), world.getGameTime(), seed));
+        var at = new Vec3(p.x(), p.y(), p.z());
+        IMPACTS.add(new Impact(p.attacker(), family, at, roll, size, p.lethal(), world.getGameTime(), seed));
+        // Shards burst away from the attacker; slashes throw them along the cut, bursts all around.
+        var style = TrailStyle.of(family);
+        var attacker = c.level.getPlayerByUUID(p.attacker());
+        Vec3 away = attacker == null ? new Vec3(0, 0.3, 0) : at.subtract(attacker.position().add(0, 1.2, 0)).normalize().scale(0.6).add(0, 0.35, 0);
+        int count = switch (family) { case BLUNT, HATCHET -> 18; case SAW -> 22; case PIERCE -> 10; default -> 14; } + (p.crit() ? 8 : 0) + (p.lethal() ? 14 : 0);
+        SlashShardParticle.burst(at, away, count, style.shardColor, 0.32f, 0.42f, 0.09f, 18);
+        if (p.lethal()) SlashShardParticle.burst(at, new Vec3(0, 0.5, 0), 12, 0xFF3A3A, 0.25f, 0.5f, 0.11f, 26);
+        DamageNumberVfx.add(at, p.damage(), family, p.crit(), p.lethal());
         if (p.attacker().equals(c.player == null ? null : c.player.getUUID())) CombatCameraFeedback.hit(family, p.crit());
     }
 
