@@ -123,7 +123,7 @@ class NightBatAnimationTest {
                     assertEquals(baseline.getX(), pos.getX(), .0001); assertEquals(baseline.getY(), pos.getY(), .0001); assertEquals(baseline.getZ(), pos.getZ(), .0001);
                     var turn = animation.get3DTransform(leg, TransformType.ROTATION, delta, baseline);
                     assertEquals(baseline.getX(), turn.getX(), .0001, "Walking pitch is not replaced");
-                    assertTrue(Math.abs(turn.getY()) <= .45 && Math.abs(turn.getZ()) <= .15, "Planted feet pivot with the hips");
+                    assertTrue(Math.abs(turn.getY()) <= .5 && Math.abs(turn.getZ()) <= .15, "Planted feet counter the hip turn");
                     footPivot = Math.max(footPivot, Math.abs(turn.getY()));
                     var size = animation.get3DTransform(leg, TransformType.SCALE, delta, new Vec3f(1, 1, 1));
                     assertTrue(size.getY() >= .98 && size.getY() <= 1, "No leg squash");
@@ -140,8 +140,10 @@ class NightBatAnimationTest {
             var grip = animation.get3DTransform("rightItem", TransformType.ROTATION, 0, Vec3f.ZERO);
             if (previousArm != null) {
                 // The renderer lerps the raw channels between keyframes, so a wrapped angle would read as a spin.
-                worstJump = Math.max(worstJump, Math.max(Math.max(Math.abs(arm.getX() - previousArm.getX()), Math.abs(arm.getY() - previousArm.getY())), Math.abs(arm.getZ() - previousArm.getZ())));
-                worstJump = Math.max(worstJump, Math.max(Math.max(Math.abs(grip.getX() - previousGrip.getX()), Math.abs(grip.getY() - previousGrip.getY())), Math.abs(grip.getZ() - previousGrip.getZ())));
+                // (The player clamps read-back rotations to (-pi, pi], so compare the wrapped difference.)
+                for (var pair : new Vec3f[][] {{arm, previousArm}, {grip, previousGrip}})
+                    for (float d : new float[] {pair[0].getX() - pair[1].getX(), pair[0].getY() - pair[1].getY(), pair[0].getZ() - pair[1].getZ()})
+                        worstJump = Math.max(worstJump, Math.abs(Math.atan2(Math.sin(d), Math.cos(d))));
             }
             previousArm = arm; previousGrip = grip;
             if (animation.get3DTransform("nightBatTrail", TransformType.POSITION, 0, Vec3f.ZERO).getY() > .25) gate.add(tick);

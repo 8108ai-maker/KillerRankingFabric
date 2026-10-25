@@ -220,8 +220,9 @@ def build_clip(name, swing_name, w):
                 "rightItem": {"x": r6(grip["x"] + goff[0]), "y": r6(grip["y"] + goff[1]), "z": r6(grip["z"] + goff[2]), "pitch": r6(gp), "yaw": r6(gy), "roll": r6(gr), "scaleX": 1, "scaleY": 1, "scaleZ": 1},
                 "body": {"x": 0.0, "y": 0.0, "z": 0.0, "pitch": r6(bpitch), "yaw": r6(byaw), "roll": r6(broll)},
                 "torso": {"pitch": r6(bpitch * 0.3), "yaw": r6(byaw * 0.25), "roll": 0.0},
-                "rightLeg": {"yaw": r6(byaw * 0.6), "roll": r6(-broll * 0.5), "scaleY": 1},
-                "leftLeg": {"yaw": r6(byaw * 0.65), "roll": r6(-broll * 0.5), "scaleY": 1},
+                # `body` turns the whole model about the hips, so the legs counter-turn to keep the feet planted
+                "rightLeg": {"yaw": r6(-byaw * 0.7), "roll": r6(-broll * 0.5), "scaleY": 1},
+                "leftLeg": {"yaw": r6(-byaw * 0.75), "roll": r6(-broll * 0.5), "scaleY": 1},
                 "nightBatTrail": {"x": 0, "y": gate, "z": 0}}
         if w["two"]:
             # second hand rides the same hilt: parallel arm from the left shoulder, pulled across toward the right hand
